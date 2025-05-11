@@ -1,0 +1,25 @@
+{
+  "id": "sifs-fenari-5e-race",
+  "title": "Sif's Fenari 5e Race",
+  "version": "1.0.0",
+  "manifest": "https://github.com/Siffers/Fenari-DnD5e/releases/latest/download/module.json",
+  "download": "https://github.com/Siffers/Fenari-DnD5e/releases/download/1.0.0/module.zip",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12"
+  },
+  "packs": [
+    {
+      "name": "the-fenari",
+      "label": "The Fenari",
+      "path": "packs/the-fenari",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e",
+      "flags": {}
+    }
+  ]
+}

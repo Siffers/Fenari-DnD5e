@@ -3,24 +3,16 @@
 > *"Look, I really don't care about the gold, I just wanna be the first to see what's in the chest!"*
 > — A Young Fenari
 
-The Fenari are fluffy little nomads: demi-humans with feline, canine, and other animal features who travel in
-caravans, peddling wares and chasing treasure. When a caravan settles down, its families slowly take on the traits
-of the people around them. Within a few generations they grow dragon breath, fairy wings, or a Goliath's sturdy
-build.
+The Fenari are fluffy little nomads: demi-humans with animal features who travel in caravans, peddling wares and chasing treasure. When a caravan settles down, its families slowly take on the traits of the dominant species around them. These traits begin to show within a few generations after they settle down.
 
 ## What's included
 
-- **The Fenari species** (2024 rules): Bite, Darkvision, Enhanced Senses, and Natural Jumper, plus a choice of
-  **ten Cultures**, each with traits at 1st, 3rd, and 5th level, like the 2024 lineages:
-  Nomadic Clan, Dragonborn, Dwarven, Elven, Fairy, Goliath, Human, Halfling, Gnome, and Kobold
-- **Every trait as a working Foundry item**, with uses, activities, and effects where they apply
-- **The Fenari lore journal:** history, the Fenari Creed, appearance, names, and every Culture
-- **The Fenari (GM Secrets):** a GM-only compendium players can't see
+- **The Fenari species** with a variety of different cultures to pick from
+- **Every trait as a working Foundry item** with uses, activities, and effects where they apply
+- **The Fenari lore journal** containing the history, appearance, names, creed, and every Culture
 
-Character creation handles everything through dnd5e's advancement prompts: drag the Fenari species onto a
-character, then pick a size and a Culture. Higher-level traits arrive as the character levels up.
-
-The Culture spells use dnd5e's free SRD spells, so no paid content is required.
+Character creation handles everything through the Foundry dnd5e system's advancement prompts.
+The Culture spells use dnd5e's free SRD spells.
 
 ## Requirements
 

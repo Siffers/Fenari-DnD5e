@@ -1,0 +1,16 @@
+{
+  "_id": "66XVWM6pJf5aWjGT",
+  "name": "Kobold Culture",
+  "type": "Item",
+  "folder": "DMtZiaeWqlcGvtDP",
+  "sorting": "a",
+  "sort": 200014,
+  "color": null,
+  "description": "",
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

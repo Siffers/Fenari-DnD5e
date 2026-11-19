@@ -1,0 +1,171 @@
+{
+  "_id": "d3WiNAitHgvndPDq",
+  "name": "Tinker",
+  "type": "feat",
+  "img": "icons/commodities/tech/cog-gear-crank-steel.webp",
+  "system": {
+    "activities": {
+      "lw35fEVbZZCAR086": {
+        "type": "cast",
+        "spell": {
+          "uuid": "Compendium.dnd5e.spells24.Item.phbsplPrestidigi",
+          "challenge": {
+            "override": false
+          },
+          "properties": [],
+          "spellbook": false,
+          "ability": ""
+        },
+        "_id": "lw35fEVbZZCAR086",
+        "img": "",
+        "sort": 0,
+        "activation": {
+          "type": "minute",
+          "override": true,
+          "condition": "",
+          "value": 10
+        },
+        "behaviors": [],
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "value": "<p>You can spend 10 minutes casting <em>Prestidigitation</em> to create a Tiny clockwork device (AC 5, 1 HP), such as a toy, fire starter, or music box. When you create the device, you determine its function by choosing one effect from <em>Prestidigitation</em>; the device produces that effect whenever you or another creature takes a Bonus Action to activate it with a touch. If the chosen effect has options within it, you choose one of those options for the device when you create it. For example, if you choose the spell’s ignite-extinguish effect, you determine whether the device ignites or extinguishes fire; the device doesn’t do both. You can have three such devices in existence at a time, and each falls apart 8 hours after its creation or when you dismantle it with a touch as a &amp;Reference[Utilize] action.</p>",
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "hour",
+          "expiry": null,
+          "concentration": false,
+          "override": true,
+          "value": "8"
+        },
+        "flags": {},
+        "range": {
+          "units": "self",
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "stationary": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "visibility": {
+          "level": {
+            "min": null,
+            "max": null
+          },
+          "requireAttunement": false,
+          "requireIdentification": false,
+          "requireMagic": false,
+          "identifier": ""
+        },
+        "name": ""
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>You know the <em>Mending</em> and <em>Prestidigitation</em> cantrips. Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells (choose when you select this Culture).</p><p>You can spend 10 minutes casting <em>Prestidigitation</em> to create a Tiny clockwork device (AC 5, 1 HP), such as a toy, fire starter, or music box. When you create the device, you determine its function by choosing one effect from <em>Prestidigitation</em>; the device produces that effect whenever you or another creature takes a Bonus Action to activate it with a touch. You can have three such devices in existence at a time, and each dismantles itself 8 hours after its creation or when you dismantle it with a touch as a Utilize action.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "",
+      "rules": "2024",
+      "book": "The Fenari",
+      "page": "",
+      "license": "CC-BY-4.0",
+      "revision": 1
+    },
+    "enchant": {},
+    "type": {
+      "value": "race",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": null,
+      "items": [
+        "race:gnome"
+      ],
+      "repeatable": false
+    },
+    "properties": [],
+    "requirements": "Fenari (Gnome Culture)",
+    "identifier": "fenari-tinker",
+    "advancement": {
+      "fjXrwPlaKnMxxWaK": {
+        "_id": "fjXrwPlaKnMxxWaK",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e.spells24.Item.phbsplMending000",
+              "optional": false,
+              "sort": 0
+            },
+            {
+              "uuid": "Compendium.dnd5e.spells24.Item.phbsplPrestidigi",
+              "optional": false,
+              "sort": 0
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [
+              "int",
+              "wis",
+              "cha"
+            ],
+            "prepared": 2,
+            "method": "spell",
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            }
+          },
+          "sorting": "m"
+        },
+        "value": {},
+        "level": 0,
+        "hint": "",
+        "name": "Cantrips",
+        "flags": {}
+      }
+    },
+    "crewed": false
+  },
+  "effects": [],
+  "folder": "uSqvztZCnB6kLcME",
+  "flags": {},
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

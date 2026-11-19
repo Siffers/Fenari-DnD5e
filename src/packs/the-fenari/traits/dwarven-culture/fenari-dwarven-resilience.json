@@ -1,0 +1,71 @@
+{
+  "_id": "C1DX6mTjNywMl19G",
+  "name": "Dwarven Resilience",
+  "type": "feat",
+  "img": "icons/consumables/potions/potion-bottle-skull-label-poison-teal.webp",
+  "system": {
+    "activities": {},
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "description": {
+      "value": "<p>Generations of drinking alongside Dwarves (and losing) have toughened your constitution. You have Resistance to Poison damage.</p><p><em>Foundry note: the Resistance is applied automatically.</em></p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "",
+      "rules": "2024",
+      "book": "The Fenari",
+      "page": "",
+      "license": "",
+      "revision": 1
+    },
+    "enchant": {},
+    "type": {
+      "value": "race",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": null,
+      "items": [],
+      "repeatable": false
+    },
+    "properties": [],
+    "requirements": "Fenari (Dwarven Culture)",
+    "identifier": "fenari-dwarven-resilience",
+    "advancement": {
+      "jToUsF2PxnuFJClL": {
+        "_id": "jToUsF2PxnuFJClL",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [
+            "dr:poison"
+          ],
+          "choices": []
+        },
+        "value": {},
+        "level": 0,
+        "hint": "",
+        "name": "Dwarven Resilience",
+        "flags": {}
+      }
+    },
+    "crewed": false
+  },
+  "effects": [],
+  "folder": "KhNcpWROpTTK862D",
+  "flags": {},
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

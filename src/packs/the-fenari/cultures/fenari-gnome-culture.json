@@ -1,0 +1,211 @@
+{
+  "_id": "5R4rcsfN2Rc9yw4N",
+  "name": "Gnome Culture",
+  "type": "feat",
+  "img": "icons/commodities/tech/cog-gear-crank-steel.webp",
+  "system": {
+    "activities": {},
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "description": {
+      "value": "<p>If there's one people whose curiosity can match a Fenari's, it's the Gnomes. Caravans that settle in Gnomish burrows and workshop-towns find themselves surrounded by kindred spirits: folk who can't leave anything un-poked, un-opened, or un-improved.</p><p>Gnomish Fenari shrink over the generations and develop clever, nimble fingers (and, many swear, larger ears for hearing the tiny clicks of a good mechanism). They take to tinkering with abandon. Every new find gets taken apart to see how it works, and most of the time it even goes back together.</p><p>Their experiments are the stuff of legend in their adopted towns, some for good reasons and some for loud ones. Gnomish Fenari consider a little smoke damage a fair price for discovery, and they tend toward chaotic good.</p><p><strong>Size.</strong> Living among Gnomes has made these Fenari smaller than their kin, most growing between 3'0\" and 3'8\" tall and weighing 35 to 55 pounds. Your size is Small.</p><p><strong>Languages.</strong> Most Gnomish Fenari learn Gnomish.</p><h3>Gnome Culture Traits</h3><table><thead><tr><th>Level</th><th>Traits</th></tr></thead><tbody><tr><td>1</td><td>Tinker, Nosy</td></tr><tr><td>3</td><td>Take It Apart, <em>Identify</em></td></tr><tr><td>5</td><td>Experimental Gadget</td></tr></tbody></table><p><strong>Spellcasting.</strong> Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells (choose when you select this Culture). You can cast each leveled spell once without a spell slot, regaining the ability when you finish a Long Rest; you can also cast them using any spell slots you have.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "",
+      "rules": "2024",
+      "book": "The Fenari",
+      "page": "",
+      "license": "",
+      "revision": 1
+    },
+    "enchant": {},
+    "type": {
+      "value": "race",
+      "subtype": "lineage"
+    },
+    "prerequisites": {
+      "level": null,
+      "items": [],
+      "repeatable": false
+    },
+    "properties": [],
+    "requirements": "Fenari",
+    "identifier": "fenari-gnome-culture",
+    "advancement": {
+      "gERhrnlxB6jYl04Y": {
+        "_id": "gERhrnlxB6jYl04Y",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.sifs-fenari-5e-race.the-fenari.Item.d3WiNAitHgvndPDq",
+              "optional": false,
+              "sort": 0
+            },
+            {
+              "uuid": "Compendium.sifs-fenari-5e-race.the-fenari.Item.6aUQ4ZY8bcDrhnVu",
+              "optional": false,
+              "sort": 0
+            }
+          ],
+          "optional": false,
+          "spell": null,
+          "sorting": "a"
+        },
+        "value": {},
+        "level": 1,
+        "hint": "",
+        "name": "Gnome Culture (1)",
+        "flags": {}
+      },
+      "p06sxDhsrPC1fgUL": {
+        "_id": "p06sxDhsrPC1fgUL",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.sifs-fenari-5e-race.the-fenari.Item.LITOAeCrNsQxaKHa",
+              "optional": false,
+              "sort": 0
+            }
+          ],
+          "optional": false,
+          "spell": null,
+          "sorting": "a"
+        },
+        "value": {},
+        "level": 3,
+        "hint": "",
+        "name": "Gnome Culture (3)",
+        "flags": {}
+      },
+      "JiHBHOVWftU9R60N": {
+        "_id": "JiHBHOVWftU9R60N",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e.spells24.Item.phbsplIdentify00",
+              "optional": false,
+              "sort": 0
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [
+              "int",
+              "wis",
+              "cha"
+            ],
+            "prepared": 2,
+            "method": "spell",
+            "uses": {
+              "max": "1",
+              "per": "lr",
+              "requireSlot": false
+            }
+          },
+          "sorting": "m"
+        },
+        "value": {},
+        "level": 3,
+        "hint": "",
+        "name": "Gnome Culture Spells (3)",
+        "flags": {}
+      },
+      "oRgVnSjnXdd50e2O": {
+        "_id": "oRgVnSjnXdd50e2O",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.sifs-fenari-5e-race.the-fenari.Item.eB6mPFYZ3ri2qB2n",
+              "optional": false,
+              "sort": 0
+            }
+          ],
+          "optional": false,
+          "spell": null,
+          "sorting": "a"
+        },
+        "value": {},
+        "level": 5,
+        "hint": "",
+        "name": "Gnome Culture (5)",
+        "flags": {}
+      }
+    },
+    "crewed": false
+  },
+  "effects": [
+    {
+      "_id": "cgZcHgG99SejQPbA",
+      "name": "Small Size",
+      "img": "icons/svg/upgrade.svg",
+      "type": "base",
+      "transfer": true,
+      "disabled": false,
+      "origin": null,
+      "description": "",
+      "tint": "#ffffff",
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6"
+      },
+      "system": {
+        "changes": [
+          {
+            "_id": "0UDOuq4F0qRyfBuu",
+            "priority": null,
+            "phase": "initial",
+            "conditions": "{}",
+            "replacement": "",
+            "key": "system.traits.size",
+            "type": "override",
+            "value": "sm"
+          }
+        ],
+        "origin": {
+          "actor": null,
+          "behavior": null,
+          "effect": null,
+          "item": null,
+          "message": null
+        },
+        "conditions": "{}",
+        "magical": false,
+        "rider": {
+          "statuses": []
+        }
+      }
+    }
+  ],
+  "folder": "VzVqme6Pkc7sGbT9",
+  "flags": {},
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

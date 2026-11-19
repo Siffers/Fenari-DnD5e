@@ -1,0 +1,16 @@
+{
+  "_id": "SfyMK5nDBzOVRo6H",
+  "name": "Nomadic Clan",
+  "type": "Item",
+  "folder": "DMtZiaeWqlcGvtDP",
+  "sorting": "a",
+  "sort": 200004,
+  "color": null,
+  "description": "",
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

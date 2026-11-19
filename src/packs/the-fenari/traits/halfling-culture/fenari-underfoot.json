@@ -1,0 +1,53 @@
+{
+  "_id": "gICcAd7cAaXmm6n2",
+  "name": "Underfoot",
+  "type": "feat",
+  "img": "icons/creatures/mammals/deer-movement-leap-green.webp",
+  "system": {
+    "activities": {},
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "description": {
+      "value": "<p>You're used to darting between the legs of bigger folk. You can move through the space of any creature that is a size larger than you, but you can't end your move there. In addition, Opportunity Attacks against you have Disadvantage.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "",
+      "rules": "2024",
+      "book": "The Fenari",
+      "page": "",
+      "license": "",
+      "revision": 1
+    },
+    "enchant": {},
+    "type": {
+      "value": "race",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": null,
+      "items": [],
+      "repeatable": false
+    },
+    "properties": [],
+    "requirements": "Fenari (Halfling Culture)",
+    "identifier": "fenari-underfoot",
+    "advancement": {},
+    "crewed": false
+  },
+  "effects": [],
+  "folder": "rXWeZgwFHxEaintn",
+  "flags": {},
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

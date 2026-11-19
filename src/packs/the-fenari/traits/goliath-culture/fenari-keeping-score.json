@@ -1,0 +1,53 @@
+{
+  "_id": "BtX1XffIjTzzF1Gw",
+  "name": "Keeping Score",
+  "type": "feat",
+  "img": "icons/commodities/treasure/medal-ribbon-gold-blue.webp",
+  "system": {
+    "activities": {},
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "description": {
+      "value": "<p>Goliath Fenari never turn down a challenge, especially from something bigger. You have Advantage on Strength checks and Strength saving throws made against creatures larger than you.</p><p><em>Foundry note: roll the Advantage yourself.</em></p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "",
+      "rules": "2024",
+      "book": "The Fenari",
+      "page": "",
+      "license": "",
+      "revision": 1
+    },
+    "enchant": {},
+    "type": {
+      "value": "race",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": null,
+      "items": [],
+      "repeatable": false
+    },
+    "properties": [],
+    "requirements": "Fenari (Goliath Culture)",
+    "identifier": "fenari-keeping-score",
+    "advancement": {},
+    "crewed": false
+  },
+  "effects": [],
+  "folder": "eHd0swmZtvSggdyT",
+  "flags": {},
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "_id": "0KV85cU1ZZB1wydx",
+  "name": "Stout Warrior",
+  "type": "feat",
+  "img": "icons/weapons/axes/axe-battle-black.webp",
+  "system": {
+    "activities": {},
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "description": {
+      "value": "<p>Taking more interest in Dwarven combat than craftsmanship, you fight like a tavern brawler who never lets go. When you hit a creature with your Bite, you can also attempt to Grapple it as part of the same Unarmed Strike (it makes the usual saving throw to avoid being Grappled).</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "",
+      "rules": "2024",
+      "book": "The Fenari",
+      "page": "",
+      "license": "",
+      "revision": 1
+    },
+    "enchant": {},
+    "type": {
+      "value": "race",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": null,
+      "items": [],
+      "repeatable": false
+    },
+    "properties": [],
+    "requirements": "Fenari (Dwarven Culture)",
+    "identifier": "fenari-stout-warrior",
+    "advancement": {},
+    "crewed": false
+  },
+  "effects": [],
+  "folder": "KhNcpWROpTTK862D",
+  "flags": {},
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

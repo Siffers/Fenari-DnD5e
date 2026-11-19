@@ -1,0 +1,176 @@
+{
+  "name": "Fenari",
+  "system": {
+    "description": {
+      "value": "<blockquote><p><em>\"Look, I really don't care about the gold, I just wanna be the first to see what's in the chest!\"</em></p><p>— A Young Fenari</p></blockquote><p>Fluffy little nomads with the ears, tails, and legs of animals, the Fenari wander the world in caravans, chasing treasure they'd rather find than keep. When a caravan settles down, its families slowly take on the traits of the people around them, and over a few generations they become something new: a Fenari Culture.</p><h3>Fenari Traits</h3><ul><li><strong>Creature Type.</strong> Humanoid</li><li><strong>Size.</strong> Small or Medium (chosen when you select this species). Some Cultures set your size.</li><li><strong>Speed.</strong> 30 feet</li><li><strong>Darkvision.</strong> You can see in Dim Light within 60 feet of you as if it were Bright Light, and in Darkness as if it were Dim Light.</li><li><strong>Enhanced Senses.</strong> You have proficiency in the Perception skill.</li><li><strong>Bite.</strong> Your fanged maw is a natural weapon you can use to make Unarmed Strikes, dealing 1d6 + your Strength modifier Piercing damage on a hit.</li><li><strong>Natural Jumper.</strong> You always count as having a running start when you jump, and you take half damage from falling.</li><li><strong>Culture.</strong> Choose one of the Fenari Cultures below. It grants traits at 1st, 3rd, and 5th level.</li></ul><h3>Cultures</h3><table><thead><tr><th>Culture</th><th></th></tr></thead><tbody><tr><td>@UUID[Compendium.sifs-fenari-5e-race.the-fenari.Item.VMa6Jd4pQ30CZXkV]{Nomadic Clan}</td><td>The pure Fenari: adaptable wanderers who live by the Creed.</td></tr><tr><td>@UUID[Compendium.sifs-fenari-5e-race.the-fenari.Item.trAPujoUoXXEJfmO]{Dragonborn Culture}</td><td>Dazzling, scaled Fenari with dragon breath and burning fangs.</td></tr><tr><td>@UUID[Compendium.sifs-fenari-5e-race.the-fenari.Item.g4eNDQWK3GC43HOd]{Dwarven Culture}</td><td>Tough, stubborn brawlers and stone-lovers who can drink anyone under the table.</td></tr><tr><td>@UUID[Compendium.sifs-fenari-5e-race.the-fenari.Item.rebBCx11L14bg5Dn]{Elven Culture}</td><td>Patient forest hunters who are impossible to find until they pounce.</td></tr><tr><td>@UUID[Compendium.sifs-fenari-5e-race.the-fenari.Item.fz2dJM3OO9wAyxBO]{Fairy Culture}</td><td>Tiny winged tricksters for whom the rules don't apply.</td></tr><tr><td>@UUID[Compendium.sifs-fenari-5e-race.the-fenari.Item.xjzbtWqXbdnadyLp]{Goliath Culture}</td><td>Stocky mountain underdogs who keep score and grow to match.</td></tr><tr><td>@UUID[Compendium.sifs-fenari-5e-race.the-fenari.Item.xeRpPUNsWQZcHUZ0]{Human Culture}</td><td>Ambitious market-town opportunists who can learn anything.</td></tr><tr><td>@UUID[Compendium.sifs-fenari-5e-race.the-fenari.Item.2fc0zMAXCvy6gTlS]{Halfling Culture}</td><td>Lucky little gourmands who love an audience.</td></tr><tr><td>@UUID[Compendium.sifs-fenari-5e-race.the-fenari.Item.5R4rcsfN2Rc9yw4N]{Gnome Culture}</td><td>Endlessly curious tinkerers whose experiments mostly work.</td></tr><tr><td>@UUID[Compendium.sifs-fenari-5e-race.the-fenari.Item.cfj2uAkVq0T7gGx7]{Kobold Culture}</td><td>Tiny, loud, fiercely loyal, and much braver than they look.</td></tr></tbody></table><p><em>See the <strong>The Fenari</strong> journal for their history, the Creed, and every Culture.</em></p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "",
+      "rules": "2024",
+      "book": "The Fenari",
+      "page": "",
+      "license": "",
+      "revision": 1
+    },
+    "advancement": {
+      "mlD9UGlgc7PCgrxp": {
+        "_id": "mlD9UGlgc7PCgrxp",
+        "type": "Size",
+        "configuration": {
+          "sizes": [
+            "sm",
+            "med"
+          ]
+        },
+        "value": {},
+        "level": 0,
+        "hint": "Small or Medium (the Fairy, Gnome, Halfling, and Kobold Cultures are Small; Goliath is Medium)",
+        "name": "",
+        "flags": {}
+      },
+      "jNRXEWPpowwhHvK8": {
+        "_id": "jNRXEWPpowwhHvK8",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.sifs-fenari-5e-race.the-fenari.Item.7Jq3AoUNHlcpAD8u",
+              "optional": false,
+              "sort": 0
+            },
+            {
+              "uuid": "Compendium.sifs-fenari-5e-race.the-fenari.Item.MnihZ5suzEdFdPdK",
+              "optional": false,
+              "sort": 0
+            },
+            {
+              "uuid": "Compendium.sifs-fenari-5e-race.the-fenari.Item.wWcp7wy2J8j3TVvx",
+              "optional": false,
+              "sort": 0
+            }
+          ],
+          "optional": false,
+          "spell": null,
+          "sorting": "a"
+        },
+        "value": {},
+        "level": 0,
+        "hint": "",
+        "name": "Fenari Traits",
+        "flags": {}
+      },
+      "G0ng3ZBhAdQFoAna": {
+        "_id": "G0ng3ZBhAdQFoAna",
+        "type": "ItemChoice",
+        "configuration": {
+          "allowDrops": true,
+          "choices": {
+            "0": {
+              "count": 1,
+              "replacement": false
+            }
+          },
+          "pool": [
+            {
+              "uuid": "Compendium.sifs-fenari-5e-race.the-fenari.Item.VMa6Jd4pQ30CZXkV",
+              "sort": 0
+            },
+            {
+              "uuid": "Compendium.sifs-fenari-5e-race.the-fenari.Item.trAPujoUoXXEJfmO",
+              "sort": 0
+            },
+            {
+              "uuid": "Compendium.sifs-fenari-5e-race.the-fenari.Item.g4eNDQWK3GC43HOd",
+              "sort": 0
+            },
+            {
+              "uuid": "Compendium.sifs-fenari-5e-race.the-fenari.Item.rebBCx11L14bg5Dn",
+              "sort": 0
+            },
+            {
+              "uuid": "Compendium.sifs-fenari-5e-race.the-fenari.Item.fz2dJM3OO9wAyxBO",
+              "sort": 0
+            },
+            {
+              "uuid": "Compendium.sifs-fenari-5e-race.the-fenari.Item.xjzbtWqXbdnadyLp",
+              "sort": 0
+            },
+            {
+              "uuid": "Compendium.sifs-fenari-5e-race.the-fenari.Item.xeRpPUNsWQZcHUZ0",
+              "sort": 0
+            },
+            {
+              "uuid": "Compendium.sifs-fenari-5e-race.the-fenari.Item.2fc0zMAXCvy6gTlS",
+              "sort": 0
+            },
+            {
+              "uuid": "Compendium.sifs-fenari-5e-race.the-fenari.Item.5R4rcsfN2Rc9yw4N",
+              "sort": 0
+            },
+            {
+              "uuid": "Compendium.sifs-fenari-5e-race.the-fenari.Item.cfj2uAkVq0T7gGx7",
+              "sort": 0
+            }
+          ],
+          "spell": null,
+          "sorting": "a",
+          "type": "feat",
+          "restriction": {
+            "list": [],
+            "school": [],
+            "type": "race",
+            "subtype": "lineage"
+          }
+        },
+        "value": {
+          "added": {},
+          "replaced": {}
+        },
+        "level": 0,
+        "hint": "",
+        "name": "Culture",
+        "flags": {}
+      }
+    },
+    "movement": {
+      "units": null,
+      "hover": false,
+      "speeds": {
+        "walk": "30"
+      },
+      "ignoredDifficultTerrain": []
+    },
+    "senses": {
+      "units": null,
+      "special": "",
+      "ranges": {
+        "darkvision": 60,
+        "blindsight": null,
+        "tremorsense": null,
+        "truesight": null
+      }
+    },
+    "type": {
+      "value": "humanoid",
+      "custom": "",
+      "subtype": "Fenari"
+    },
+    "identifier": "fenari"
+  },
+  "_id": "uQFD1YuznsthKMj6",
+  "type": "race",
+  "img": "https://dl.dropbox.com/scl/fi/hpyyl694o1zc5ffu3knwo/wagon.webp?rlkey=i4iu8v11ffvfgzfio6at2gexp&dl=0",
+  "effects": [],
+  "folder": "VIVwwthfeg49kenI",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

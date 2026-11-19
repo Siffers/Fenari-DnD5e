@@ -1,0 +1,53 @@
+{
+  "_id": "K6xMlpcXhXXm8m92",
+  "name": "Hold Your Liquor",
+  "type": "feat",
+  "img": "icons/consumables/drinks/alcohol-beer-mug-yellow.webp",
+  "system": {
+    "activities": {},
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "description": {
+      "value": "<p>Dwarven Fenari have matched their hosts drink for drink and never backed down from a fight after. You have Advantage on saving throws you make to avoid or end the Poisoned or Frightened condition.</p><p><em>Foundry note: roll the Advantage yourself.</em></p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "",
+      "rules": "2024",
+      "book": "The Fenari",
+      "page": "",
+      "license": "",
+      "revision": 1
+    },
+    "enchant": {},
+    "type": {
+      "value": "race",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": null,
+      "items": [],
+      "repeatable": false
+    },
+    "properties": [],
+    "requirements": "Fenari (Dwarven Culture)",
+    "identifier": "fenari-hold-your-liquor",
+    "advancement": {},
+    "crewed": false
+  },
+  "effects": [],
+  "folder": "KhNcpWROpTTK862D",
+  "flags": {},
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

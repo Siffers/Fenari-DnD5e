@@ -1,0 +1,53 @@
+{
+  "_id": "uQjz9kp8BH8cdFkm",
+  "name": "Pack Pounce",
+  "type": "feat",
+  "img": "icons/creatures/abilities/cougar-pounce-stalk-black.webp",
+  "system": {
+    "activities": {},
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "description": {
+      "value": "<p>Little teeth are scarier with friends around. You have Advantage on attack rolls you make with your Bite against a creature if at least one of your allies is within 5 feet of it and isn't Incapacitated.</p><p><em>Foundry note: roll the Advantage yourself.</em></p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "",
+      "rules": "2024",
+      "book": "The Fenari",
+      "page": "",
+      "license": "",
+      "revision": 1
+    },
+    "enchant": {},
+    "type": {
+      "value": "race",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": null,
+      "items": [],
+      "repeatable": false
+    },
+    "properties": [],
+    "requirements": "Fenari (Kobold Culture)",
+    "identifier": "fenari-pack-pounce",
+    "advancement": {},
+    "crewed": false
+  },
+  "effects": [],
+  "folder": "66XVWM6pJf5aWjGT",
+  "flags": {},
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

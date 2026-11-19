@@ -1,0 +1,53 @@
+{
+  "_id": "wWcp7wy2J8j3TVvx",
+  "name": "Natural Jumper",
+  "type": "feat",
+  "img": "icons/creatures/mammals/deer-movement-leap-green.webp",
+  "system": {
+    "activities": {},
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "description": {
+      "value": "<p>Fenari legs are built for bounding. You always count as having a running start when you make a Long Jump or High Jump, and you take half damage from falling, landing on your feet like a cat.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "",
+      "rules": "2024",
+      "book": "The Fenari",
+      "page": "",
+      "license": "",
+      "revision": 1
+    },
+    "enchant": {},
+    "type": {
+      "value": "race",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": null,
+      "items": [],
+      "repeatable": false
+    },
+    "properties": [],
+    "requirements": "Fenari",
+    "identifier": "fenari-natural-jumper",
+    "advancement": {},
+    "crewed": false
+  },
+  "effects": [],
+  "folder": "UbxGAn0ehnxaMkQP",
+  "flags": {},
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

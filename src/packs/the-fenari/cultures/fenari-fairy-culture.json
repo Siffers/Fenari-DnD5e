@@ -1,0 +1,232 @@
+{
+  "_id": "fz2dJM3OO9wAyxBO",
+  "name": "Fairy Culture",
+  "type": "feat",
+  "img": "icons/creatures/magical/fae-fairy-winged-glowing-green.webp",
+  "system": {
+    "activities": {},
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "description": {
+      "value": "<p>Every so often a caravan follows a strange light off the road and doesn't come back. A few of those caravans find their way into the Feywild, and some of them decide they like it there.</p><p>Living among the fey changes a Fenari faster than any other host. Within a generation or two they shrink, their colors turn vivid and impossible (sunset orange, sea-glass blue, lilac fur with silver tips), and a pair of gossamer wings sprouts from their shoulders. Fairy Fenari soon learn the fey habits of trading in riddles, favors, and very carefully worded promises, along with a few of the fey's tricks for being seen only when they want to be.</p><p>When they return to the mortal world, Fairy Fenari make for delightful and slightly alarming traveling companions: endlessly curious, quick to fly off after anything shiny, and absolutely certain that the rules don't apply to them. They tend toward chaotic neutral.</p><p><strong>Size.</strong> Living among the fey has made these Fenari smaller than their kin, most growing between 3'4\" and 4'2\" tall and weighing 40 to 60 pounds. Your size is Small.</p><p><strong>Languages.</strong> Most Fairy Fenari learn Sylvan.</p><h3>Fairy Culture Traits</h3><table><thead><tr><th>Level</th><th>Traits</th></tr></thead><tbody><tr><td>1</td><td>Fairy Flight, <em>Minor Illusion</em></td></tr><tr><td>3</td><td><em>Faerie Fire</em></td></tr><tr><td>5</td><td><em>Invisibility</em></td></tr></tbody></table><p><strong>Spellcasting.</strong> Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells (choose when you select this Culture). You can cast each leveled spell once without a spell slot, regaining the ability when you finish a Long Rest; you can also cast them using any spell slots you have.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "",
+      "rules": "2024",
+      "book": "The Fenari",
+      "page": "",
+      "license": "",
+      "revision": 1
+    },
+    "enchant": {},
+    "type": {
+      "value": "race",
+      "subtype": "lineage"
+    },
+    "prerequisites": {
+      "level": null,
+      "items": [],
+      "repeatable": false
+    },
+    "properties": [],
+    "requirements": "Fenari",
+    "identifier": "fenari-fairy-culture",
+    "advancement": {
+      "a7AWmKckDoH5QB4s": {
+        "_id": "a7AWmKckDoH5QB4s",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.sifs-fenari-5e-race.the-fenari.Item.60qavHP2bTaAOsyD",
+              "optional": false,
+              "sort": 0
+            }
+          ],
+          "optional": false,
+          "spell": null,
+          "sorting": "a"
+        },
+        "value": {},
+        "level": 1,
+        "hint": "",
+        "name": "Fairy Culture (1)",
+        "flags": {}
+      },
+      "PDBePGCnNOUe1o10": {
+        "_id": "PDBePGCnNOUe1o10",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e.spells24.Item.phbsplMinorIllus",
+              "optional": false,
+              "sort": 0
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [
+              "int",
+              "wis",
+              "cha"
+            ],
+            "prepared": 2,
+            "method": "spell",
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            }
+          },
+          "sorting": "m"
+        },
+        "value": {},
+        "level": 1,
+        "hint": "",
+        "name": "Fairy Culture Spells (1)",
+        "flags": {}
+      },
+      "8soAbh6HGgLmrbNo": {
+        "_id": "8soAbh6HGgLmrbNo",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e.spells24.Item.phbsplFaerieFire",
+              "optional": false,
+              "sort": 0
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [
+              "int",
+              "wis",
+              "cha"
+            ],
+            "prepared": 2,
+            "method": "spell",
+            "uses": {
+              "max": "1",
+              "per": "lr",
+              "requireSlot": false
+            }
+          },
+          "sorting": "m"
+        },
+        "value": {},
+        "level": 3,
+        "hint": "",
+        "name": "Fairy Culture Spells (3)",
+        "flags": {}
+      },
+      "eWWEvqeyBzawJac0": {
+        "_id": "eWWEvqeyBzawJac0",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e.spells24.Item.phbsplInvisibili",
+              "optional": false,
+              "sort": 0
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [
+              "int",
+              "wis",
+              "cha"
+            ],
+            "prepared": 2,
+            "method": "spell",
+            "uses": {
+              "max": "1",
+              "per": "lr",
+              "requireSlot": false
+            }
+          },
+          "sorting": "m"
+        },
+        "value": {},
+        "level": 5,
+        "hint": "",
+        "name": "Fairy Culture Spells (5)",
+        "flags": {}
+      }
+    },
+    "crewed": false
+  },
+  "effects": [
+    {
+      "_id": "JRUxhuKCzb5qIJIg",
+      "name": "Small Size",
+      "img": "icons/svg/upgrade.svg",
+      "type": "base",
+      "transfer": true,
+      "disabled": false,
+      "origin": null,
+      "description": "",
+      "tint": "#ffffff",
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6"
+      },
+      "system": {
+        "changes": [
+          {
+            "_id": "47Le2xJGLZ3WpfC2",
+            "priority": null,
+            "phase": "initial",
+            "conditions": "{}",
+            "replacement": "",
+            "key": "system.traits.size",
+            "type": "override",
+            "value": "sm"
+          }
+        ],
+        "origin": {
+          "actor": null,
+          "behavior": null,
+          "effect": null,
+          "item": null,
+          "message": null
+        },
+        "conditions": "{}",
+        "magical": false,
+        "rider": {
+          "statuses": []
+        }
+      }
+    }
+  ],
+  "folder": "VzVqme6Pkc7sGbT9",
+  "flags": {},
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

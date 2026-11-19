@@ -1,0 +1,53 @@
+{
+  "_id": "LITOAeCrNsQxaKHa",
+  "name": "Take It Apart",
+  "type": "feat",
+  "img": "icons/tools/hand/wrench-adjustable.webp",
+  "system": {
+    "activities": {},
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "description": {
+      "value": "<p>Every new find gets examined thoroughly. You can cast <em>Identify</em> once without a spell slot, and you regain the ability to do so when you finish a Long Rest. You can also cast it using any spell slots you have. Your spellcasting ability for it is the one you chose for <strong>Tinker</strong>.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "",
+      "rules": "2024",
+      "book": "The Fenari",
+      "page": "",
+      "license": "",
+      "revision": 1
+    },
+    "enchant": {},
+    "type": {
+      "value": "race",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": null,
+      "items": [],
+      "repeatable": false
+    },
+    "properties": [],
+    "requirements": "Fenari (Gnome Culture)",
+    "identifier": "fenari-take-it-apart",
+    "advancement": {},
+    "crewed": false
+  },
+  "effects": [],
+  "folder": "uSqvztZCnB6kLcME",
+  "flags": {},
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

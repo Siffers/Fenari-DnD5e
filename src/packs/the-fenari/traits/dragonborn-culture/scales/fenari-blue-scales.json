@@ -1,0 +1,76 @@
+{
+  "_id": "nEtzQJMpsCQTLfgS",
+  "name": "Blue Scales",
+  "type": "feat",
+  "img": "icons/magic/lightning/bolt-blue.webp",
+  "system": {
+    "activities": {},
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "description": {
+      "value": "<p>Your scales shimmer blue. Your <strong>Dragon's Breath</strong> deals <strong>Lightning</strong> damage, and so do your <strong>Dragonfire Fangs</strong> once you gain them.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "",
+      "rules": "2024",
+      "book": "The Fenari",
+      "page": "",
+      "license": "",
+      "revision": 1
+    },
+    "enchant": {},
+    "type": {
+      "value": "race",
+      "subtype": "lineage"
+    },
+    "prerequisites": {
+      "level": null,
+      "items": [],
+      "repeatable": false
+    },
+    "properties": [],
+    "requirements": "Fenari (Dragonborn Culture)",
+    "identifier": "fenari-blue-scales",
+    "advancement": {
+      "kyZ7fm2nbkjtUM1F": {
+        "_id": "kyZ7fm2nbkjtUM1F",
+        "type": "ModifyItem",
+        "configuration": {
+          "changes": [
+            {
+              "_id": "hTzMlh22s8sUnbFK",
+              "uuid": "Compendium.dnd5e.effects.ActiveEffect.phbeffBreWeapLig",
+              "identifiers": [
+                "feat:breath-weapon"
+              ]
+            }
+          ]
+        },
+        "value": {
+          "modified": []
+        },
+        "level": 0,
+        "hint": "",
+        "name": "",
+        "flags": {}
+      }
+    },
+    "crewed": false
+  },
+  "effects": [],
+  "folder": "XJLI4uEY95tsa2MD",
+  "flags": {},
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

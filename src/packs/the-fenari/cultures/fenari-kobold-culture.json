@@ -1,0 +1,172 @@
+{
+  "_id": "cfj2uAkVq0T7gGx7",
+  "name": "Kobold Culture",
+  "type": "feat",
+  "img": "icons/creatures/abilities/wolf-howl-moon-white.webp",
+  "system": {
+    "activities": {},
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "description": {
+      "value": "<p>Kobolds are small, loud, enthusiastic, and devoted to their warrens, their friends, and any dragon that will have them, which makes them some of the Fenari's favorite hosts. A caravan that stumbles into a Kobold warren is usually adopted within the week.</p><p>Kobold Fenari shrink over the generations and grow a little scaly around the edges, though they keep their fur and their bite. They pick up the Kobold talent for fighting as a pack: alone, a Kobold Fenari is a nuisance; in a group, they're an avalanche of tiny teeth and piercing yips.</p><p>Their loyalty is legendary. A Kobold Fenari who calls you a friend will follow you into a dragon's lair, probably while asking whether the dragon is friendly, and whether it might like to meet them. They tend toward lawful neutral.</p><p><strong>Size.</strong> Living among Kobolds has made these Fenari smaller than their kin, most growing between 2'10\" and 3'6\" tall and weighing 30 to 50 pounds. Your size is Small.</p><p><strong>Languages.</strong> Most Kobold Fenari learn Draconic.</p><h3>Kobold Culture Traits</h3><table><thead><tr><th>Level</th><th>Traits</th></tr></thead><tbody><tr><td>1</td><td>Rally Yip</td></tr><tr><td>3</td><td>Unison Strike</td></tr><tr><td>5</td><td>Pack Pounce</td></tr></tbody></table>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "",
+      "rules": "2024",
+      "book": "The Fenari",
+      "page": "",
+      "license": "",
+      "revision": 1
+    },
+    "enchant": {},
+    "type": {
+      "value": "race",
+      "subtype": "lineage"
+    },
+    "prerequisites": {
+      "level": null,
+      "items": [],
+      "repeatable": false
+    },
+    "properties": [],
+    "requirements": "Fenari",
+    "identifier": "fenari-kobold-culture",
+    "advancement": {
+      "1lgtK3HSJvg7gGMP": {
+        "_id": "1lgtK3HSJvg7gGMP",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.sifs-fenari-5e-race.the-fenari.Item.iaYzyHpbw4ziSKJa",
+              "optional": false,
+              "sort": 0
+            }
+          ],
+          "optional": false,
+          "spell": null,
+          "sorting": "a"
+        },
+        "value": {},
+        "level": 1,
+        "hint": "",
+        "name": "Kobold Culture (1)",
+        "flags": {}
+      },
+      "R3lIn8YSXxZeeyp5": {
+        "_id": "R3lIn8YSXxZeeyp5",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.sifs-fenari-5e-race.the-fenari.Item.cdLolEWED2tPpj2w",
+              "optional": false,
+              "sort": 0
+            }
+          ],
+          "optional": false,
+          "spell": null,
+          "sorting": "a"
+        },
+        "value": {},
+        "level": 3,
+        "hint": "",
+        "name": "Kobold Culture (3)",
+        "flags": {}
+      },
+      "QdMl5bYicQb1bVxH": {
+        "_id": "QdMl5bYicQb1bVxH",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.sifs-fenari-5e-race.the-fenari.Item.uQjz9kp8BH8cdFkm",
+              "optional": false,
+              "sort": 0
+            }
+          ],
+          "optional": false,
+          "spell": null,
+          "sorting": "a"
+        },
+        "value": {},
+        "level": 5,
+        "hint": "",
+        "name": "Kobold Culture (5)",
+        "flags": {}
+      }
+    },
+    "crewed": false
+  },
+  "effects": [
+    {
+      "_id": "djHnmBCp4W7TPRJH",
+      "name": "Small Size",
+      "img": "icons/svg/upgrade.svg",
+      "type": "base",
+      "transfer": true,
+      "disabled": false,
+      "origin": null,
+      "description": "",
+      "tint": "#ffffff",
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6"
+      },
+      "system": {
+        "changes": [
+          {
+            "_id": "3Ww9wEwsHkMrzUlr",
+            "priority": null,
+            "phase": "initial",
+            "conditions": "{}",
+            "replacement": "",
+            "key": "system.traits.size",
+            "type": "override",
+            "value": "sm"
+          }
+        ],
+        "origin": {
+          "actor": null,
+          "behavior": null,
+          "effect": null,
+          "item": null,
+          "message": null
+        },
+        "conditions": "{}",
+        "magical": false,
+        "rider": {
+          "statuses": []
+        }
+      }
+    }
+  ],
+  "folder": "VzVqme6Pkc7sGbT9",
+  "flags": {},
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

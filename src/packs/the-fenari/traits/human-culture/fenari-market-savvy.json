@@ -1,0 +1,53 @@
+{
+  "_id": "UvPtW0gqk7Ve4Gyx",
+  "name": "Market Savvy",
+  "type": "feat",
+  "img": "icons/tools/hand/scale-balances-merchant-brown.webp",
+  "system": {
+    "activities": {},
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "description": {
+      "value": "<p>Human Fenari grow up in market towns, where everything has a price and most prices are wrong. You instantly know whether an item is worth more or less than the price being asked for it, and you have Advantage on ability checks to haggle over a price.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "",
+      "rules": "2024",
+      "book": "The Fenari",
+      "page": "",
+      "license": "",
+      "revision": 1
+    },
+    "enchant": {},
+    "type": {
+      "value": "race",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": null,
+      "items": [],
+      "repeatable": false
+    },
+    "properties": [],
+    "requirements": "Fenari (Human Culture)",
+    "identifier": "fenari-market-savvy",
+    "advancement": {},
+    "crewed": false
+  },
+  "effects": [],
+  "folder": "GK6Y2hiEGEQkbzhm",
+  "flags": {},
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

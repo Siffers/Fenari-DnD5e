@@ -1,0 +1,16 @@
+{
+  "_id": "GK6Y2hiEGEQkbzhm",
+  "name": "Human Culture",
+  "type": "Item",
+  "folder": "DMtZiaeWqlcGvtDP",
+  "sorting": "a",
+  "sort": 200011,
+  "color": null,
+  "description": "",
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

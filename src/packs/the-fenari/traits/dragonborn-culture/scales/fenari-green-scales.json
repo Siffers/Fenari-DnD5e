@@ -1,0 +1,76 @@
+{
+  "_id": "g6X0ElmrTWcJe6uM",
+  "name": "Green Scales",
+  "type": "feat",
+  "img": "icons/magic/death/skull-poison-green.webp",
+  "system": {
+    "activities": {},
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "description": {
+      "value": "<p>Your scales shimmer green. Your <strong>Dragon's Breath</strong> deals <strong>Poison</strong> damage, and so do your <strong>Dragonfire Fangs</strong> once you gain them.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "",
+      "rules": "2024",
+      "book": "The Fenari",
+      "page": "",
+      "license": "",
+      "revision": 1
+    },
+    "enchant": {},
+    "type": {
+      "value": "race",
+      "subtype": "lineage"
+    },
+    "prerequisites": {
+      "level": null,
+      "items": [],
+      "repeatable": false
+    },
+    "properties": [],
+    "requirements": "Fenari (Dragonborn Culture)",
+    "identifier": "fenari-green-scales",
+    "advancement": {
+      "braIZ3jwnBWv6vs6": {
+        "_id": "braIZ3jwnBWv6vs6",
+        "type": "ModifyItem",
+        "configuration": {
+          "changes": [
+            {
+              "_id": "HJWc3ttWmvzZYGsa",
+              "uuid": "Compendium.dnd5e.effects.ActiveEffect.phbeffBreWeapPoi",
+              "identifiers": [
+                "feat:breath-weapon"
+              ]
+            }
+          ]
+        },
+        "value": {
+          "modified": []
+        },
+        "level": 0,
+        "hint": "",
+        "name": "",
+        "flags": {}
+      }
+    },
+    "crewed": false
+  },
+  "effects": [],
+  "folder": "XJLI4uEY95tsa2MD",
+  "flags": {},
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

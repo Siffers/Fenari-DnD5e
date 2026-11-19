@@ -1,0 +1,117 @@
+{
+  "_id": "g4eNDQWK3GC43HOd",
+  "name": "Dwarven Culture",
+  "type": "feat",
+  "img": "icons/consumables/drinks/alcohol-beer-mug-yellow.webp",
+  "system": {
+    "activities": {},
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "description": {
+      "value": "<p>Dwarven Fenari often have a paler complexion than their surface-dwelling kin, as years spent beneath the mountains have deprived them of sunlight. The Dwarves are known for their ferocity and tenacity on the battlefield, as well as their unrivaled ability to hold their liquor, and these are the traits the Fenari most try to emulate.</p><p>They spend most of their day working alongside their Dwarven friends, learning to fight the Dwarven way, and retire to the tavern in the evenings to drink their fill. Though it's less common, some Fenari take to the forge and the stonecutter's chisel instead of the battle line. Dwarven Fenari tend toward lawful good.</p><p><strong>Languages.</strong> Most Dwarven Fenari learn Dwarvish.</p><h3>Dwarven Culture Traits</h3><table><thead><tr><th>Level</th><th>Traits</th></tr></thead><tbody><tr><td>1</td><td>Dwarven Resilience</td></tr><tr><td>3</td><td>Dwarven Upbringing</td></tr><tr><td>5</td><td>Hold Your Liquor</td></tr></tbody></table>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "",
+      "rules": "2024",
+      "book": "The Fenari",
+      "page": "",
+      "license": "",
+      "revision": 1
+    },
+    "enchant": {},
+    "type": {
+      "value": "race",
+      "subtype": "lineage"
+    },
+    "prerequisites": {
+      "level": null,
+      "items": [],
+      "repeatable": false
+    },
+    "properties": [],
+    "requirements": "Fenari",
+    "identifier": "fenari-dwarf-culture",
+    "advancement": {
+      "AzsG48pVk9Q3kWCk": {
+        "_id": "AzsG48pVk9Q3kWCk",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.sifs-fenari-5e-race.the-fenari.Item.C1DX6mTjNywMl19G",
+              "optional": false,
+              "sort": 0
+            }
+          ],
+          "optional": false,
+          "spell": null,
+          "sorting": "a"
+        },
+        "value": {},
+        "level": 1,
+        "hint": "",
+        "name": "Dwarven Culture (1)",
+        "flags": {}
+      },
+      "3u51sNe1ukrI6I7c": {
+        "_id": "3u51sNe1ukrI6I7c",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.sifs-fenari-5e-race.the-fenari.Item.TkbvdmCcI9Bqt1uB",
+              "optional": false,
+              "sort": 0
+            }
+          ],
+          "optional": false,
+          "spell": null,
+          "sorting": "a"
+        },
+        "value": {},
+        "level": 3,
+        "hint": "",
+        "name": "Dwarven Culture (3)",
+        "flags": {}
+      },
+      "1q1Tf3Qtd6u1PtXl": {
+        "_id": "1q1Tf3Qtd6u1PtXl",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.sifs-fenari-5e-race.the-fenari.Item.K6xMlpcXhXXm8m92",
+              "optional": false,
+              "sort": 0
+            }
+          ],
+          "optional": false,
+          "spell": null,
+          "sorting": "a"
+        },
+        "value": {},
+        "level": 5,
+        "hint": "",
+        "name": "Dwarven Culture (5)",
+        "flags": {}
+      }
+    },
+    "crewed": false
+  },
+  "effects": [],
+  "folder": "VzVqme6Pkc7sGbT9",
+  "flags": {},
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

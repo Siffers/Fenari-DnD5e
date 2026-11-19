@@ -1,0 +1,53 @@
+{
+  "_id": "eJofpCDhabFmib10",
+  "name": "Quick Study",
+  "type": "feat",
+  "img": "icons/skills/trades/academics-study-reading-book.webp",
+  "system": {
+    "activities": {},
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "description": {
+      "value": "<p>Nomads pick things up fast. When you finish a Long Rest, choose one skill or tool. You have proficiency with it until you finish your next Long Rest.</p><p><em>Foundry note: add the proficiency on your character sheet when you choose it.</em></p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "",
+      "rules": "2024",
+      "book": "The Fenari",
+      "page": "",
+      "license": "",
+      "revision": 1
+    },
+    "enchant": {},
+    "type": {
+      "value": "race",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": null,
+      "items": [],
+      "repeatable": false
+    },
+    "properties": [],
+    "requirements": "Fenari (Nomadic Clan)",
+    "identifier": "fenari-quick-study",
+    "advancement": {},
+    "crewed": false
+  },
+  "effects": [],
+  "folder": "SfyMK5nDBzOVRo6H",
+  "flags": {},
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

@@ -1,0 +1,177 @@
+{
+  "_id": "2fc0zMAXCvy6gTlS",
+  "name": "Halfling Culture",
+  "type": "feat",
+  "img": "icons/consumables/grains/bread-loaf-boule-rustic-brown.webp",
+  "system": {
+    "activities": {},
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "description": {
+      "value": "<p>Halfling villages are cozy, well fed, and always ready for company, so a caravan that stops in one tends to stay for dinner. Then breakfast. Then second breakfast. Some never leave.</p><p>Halfling Fenari shrink a little over the generations, round out a great deal, and pick up their hosts' uncanny luck and talent for slipping underfoot. What they pick up most of all is the Halfling love of good food and good company, and of being the center of attention in both. No feast is complete without a Halfling Fenari telling a slightly exaggerated story, and no story is complete without them as the hero.</p><p>They're generous to a fault, which suits the Creed perfectly: sharing that which you don't need is easy when you've always packed extra snacks. They tend toward lawful good.</p><p><strong>Size.</strong> Living among Halflings has made these Fenari smaller than their kin, most growing between 3'2\" and 3'10\" tall and weighing 40 to 65 pounds. Your size is Small.</p><p><strong>Languages.</strong> Most Halfling Fenari learn Halfling.</p><h3>Halfling Culture Traits</h3><table><thead><tr><th>Level</th><th>Traits</th></tr></thead><tbody><tr><td>1</td><td>Lucky, Hearty Appetite</td></tr><tr><td>3</td><td>Show-Off</td></tr><tr><td>5</td><td>Underfoot</td></tr></tbody></table>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "",
+      "rules": "2024",
+      "book": "The Fenari",
+      "page": "",
+      "license": "",
+      "revision": 1
+    },
+    "enchant": {},
+    "type": {
+      "value": "race",
+      "subtype": "lineage"
+    },
+    "prerequisites": {
+      "level": null,
+      "items": [],
+      "repeatable": false
+    },
+    "properties": [],
+    "requirements": "Fenari",
+    "identifier": "fenari-halfling-culture",
+    "advancement": {
+      "MsTMZg6HnoYlOSoj": {
+        "_id": "MsTMZg6HnoYlOSoj",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.sifs-fenari-5e-race.the-fenari.Item.DOjGVUDfT8W3hnQS",
+              "optional": false,
+              "sort": 0
+            },
+            {
+              "uuid": "Compendium.sifs-fenari-5e-race.the-fenari.Item.aTZzu10tP2adddN0",
+              "optional": false,
+              "sort": 0
+            }
+          ],
+          "optional": false,
+          "spell": null,
+          "sorting": "a"
+        },
+        "value": {},
+        "level": 1,
+        "hint": "",
+        "name": "Halfling Culture (1)",
+        "flags": {}
+      },
+      "8lMt6y1UkcnQVhx5": {
+        "_id": "8lMt6y1UkcnQVhx5",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.sifs-fenari-5e-race.the-fenari.Item.ngqH7FRBjZ0caaRr",
+              "optional": false,
+              "sort": 0
+            }
+          ],
+          "optional": false,
+          "spell": null,
+          "sorting": "a"
+        },
+        "value": {},
+        "level": 3,
+        "hint": "",
+        "name": "Halfling Culture (3)",
+        "flags": {}
+      },
+      "agLGreoaavAa6uh5": {
+        "_id": "agLGreoaavAa6uh5",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.sifs-fenari-5e-race.the-fenari.Item.gICcAd7cAaXmm6n2",
+              "optional": false,
+              "sort": 0
+            }
+          ],
+          "optional": false,
+          "spell": null,
+          "sorting": "a"
+        },
+        "value": {},
+        "level": 5,
+        "hint": "",
+        "name": "Halfling Culture (5)",
+        "flags": {}
+      }
+    },
+    "crewed": false
+  },
+  "effects": [
+    {
+      "_id": "zfOhu9DPDDuDvL38",
+      "name": "Small Size",
+      "img": "icons/svg/upgrade.svg",
+      "type": "base",
+      "transfer": true,
+      "disabled": false,
+      "origin": null,
+      "description": "",
+      "tint": "#ffffff",
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "start": null,
+      "showIcon": 1,
+      "folder": null,
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6"
+      },
+      "system": {
+        "changes": [
+          {
+            "_id": "wsKJof5t04tH9BzD",
+            "priority": null,
+            "phase": "initial",
+            "conditions": "{}",
+            "replacement": "",
+            "key": "system.traits.size",
+            "type": "override",
+            "value": "sm"
+          }
+        ],
+        "origin": {
+          "actor": null,
+          "behavior": null,
+          "effect": null,
+          "item": null,
+          "message": null
+        },
+        "conditions": "{}",
+        "magical": false,
+        "rider": {
+          "statuses": []
+        }
+      }
+    }
+  ],
+  "folder": "VzVqme6Pkc7sGbT9",
+  "flags": {},
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

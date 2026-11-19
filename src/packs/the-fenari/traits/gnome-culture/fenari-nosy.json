@@ -1,0 +1,53 @@
+{
+  "_id": "6aUQ4ZY8bcDrhnVu",
+  "name": "Nosy",
+  "type": "feat",
+  "img": "icons/tools/scribal/magnifying-glass.webp",
+  "system": {
+    "activities": {},
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "description": {
+      "value": "<p>Nothing stays closed around a Gnomish Fenari for long. You have Advantage on Intelligence (Investigation) checks to figure out how a mechanism, lock, or trap works.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "",
+      "rules": "2024",
+      "book": "The Fenari",
+      "page": "",
+      "license": "",
+      "revision": 1
+    },
+    "enchant": {},
+    "type": {
+      "value": "race",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": null,
+      "items": [],
+      "repeatable": false
+    },
+    "properties": [],
+    "requirements": "Fenari (Gnome Culture)",
+    "identifier": "fenari-nosy",
+    "advancement": {},
+    "crewed": false
+  },
+  "effects": [],
+  "folder": "uSqvztZCnB6kLcME",
+  "flags": {},
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

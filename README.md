@@ -10,15 +10,17 @@ build.
 
 ## What's included
 
-- **Seven species** (2024 rules), one for each Fenari culture:
-  Nomadic Clan, Dragonborn, Dwarven, Elven, Fairy, Goliath, and Human
-- **All their traits as working Foundry items:** Bite (a natural weapon), Enhanced Senses, Dragon's Breath with a
-  Scale Color choice, Dwarven Resilience, Stout Warrior / Stone Appreciator, Mask of the Wild, Fairy Flight,
-  Compact Power, Versatility, and Nomadic Skill
-- **The Fenari lore journal:** history, the Fenari Creed, appearance, names, and every culture
+- **The Fenari species** (2024 rules): Bite, Darkvision, Enhanced Senses, and Natural Jumper, plus a choice of
+  **ten Cultures**, each with traits at 1st, 3rd, and 5th level, like the 2024 lineages:
+  Nomadic Clan, Dragonborn, Dwarven, Elven, Fairy, Goliath, Human, Halfling, Gnome, and Kobold
+- **Every trait as a working Foundry item**, with uses, activities, and effects where they apply
+- **The Fenari lore journal:** history, the Fenari Creed, appearance, names, and every Culture
+- **The Fenari (GM Secrets):** a GM-only compendium players can't see
 
-Character creation handles everything through dnd5e's advancement prompts: drag a Fenari species onto a character
-and pick its options.
+Character creation handles everything through dnd5e's advancement prompts: drag the Fenari species onto a
+character, then pick a size and a Culture. Higher-level traits arrive as the character levels up.
+
+The Culture spells use dnd5e's free SRD spells, so no paid content is required.
 
 ## Requirements
 

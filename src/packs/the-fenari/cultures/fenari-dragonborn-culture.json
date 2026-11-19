@@ -1,0 +1,122 @@
+{
+  "_id": "trAPujoUoXXEJfmO",
+  "name": "Dragonborn Culture",
+  "type": "feat",
+  "img": "icons/creatures/reptiles/lizard-mouth-glowing-red.webp",
+  "system": {
+    "activities": {},
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "description": {
+      "value": "<p>Dragonborn Fenari have a tendency to adorn themselves with jewelry and dazzling apparel in an attempt to emulate the natural scales of the Dragonborn. This desire extends even to their choice of armor, often preferring Scale Mail over other armors, even when it hinders more than it helps.</p><p>Over time these Fenari start to grow horns that are dragon in appearance, soft scales spreading over their skin in place of their fur, and ears taking on a pointed look. Eventually they develop the same breath sacs as their Dragonborn kith, though a Fenari can't resist putting some of that fire into a good bite as well. Dragonborn Fenari tend to lean more toward good than evil.</p><p><strong>Languages.</strong> Most Dragonborn Fenari learn Draconic.</p><h3>Dragonborn Culture Traits</h3><table><thead><tr><th>Level</th><th>Traits</th></tr></thead><tbody><tr><td>1</td><td>Scale Color, Dragon's Breath</td></tr><tr><td>3</td><td>Glimmer Guard</td></tr><tr><td>5</td><td>Dragonfire Fangs</td></tr></tbody></table>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "",
+      "rules": "2024",
+      "book": "The Fenari",
+      "page": "",
+      "license": "",
+      "revision": 1
+    },
+    "enchant": {},
+    "type": {
+      "value": "race",
+      "subtype": "lineage"
+    },
+    "prerequisites": {
+      "level": null,
+      "items": [],
+      "repeatable": false
+    },
+    "properties": [],
+    "requirements": "Fenari",
+    "identifier": "fenari-dragonborn-culture",
+    "advancement": {
+      "6HGe6E6CsE60RGdi": {
+        "_id": "6HGe6E6CsE60RGdi",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.sifs-fenari-5e-race.the-fenari.Item.mjYgX1O5D2cWAKDd",
+              "optional": false,
+              "sort": 0
+            },
+            {
+              "uuid": "Compendium.sifs-fenari-5e-race.the-fenari.Item.ssN1njpthvpvUKuY",
+              "optional": false,
+              "sort": 0
+            }
+          ],
+          "optional": false,
+          "spell": null,
+          "sorting": "a"
+        },
+        "value": {},
+        "level": 1,
+        "hint": "",
+        "name": "Dragonborn Culture (1)",
+        "flags": {}
+      },
+      "i0MONQVW2iBGdXw2": {
+        "_id": "i0MONQVW2iBGdXw2",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.sifs-fenari-5e-race.the-fenari.Item.Pi3pwZv6OAFBG0rr",
+              "optional": false,
+              "sort": 0
+            }
+          ],
+          "optional": false,
+          "spell": null,
+          "sorting": "a"
+        },
+        "value": {},
+        "level": 3,
+        "hint": "",
+        "name": "Dragonborn Culture (3)",
+        "flags": {}
+      },
+      "q1oPg3FOWzwliA2B": {
+        "_id": "q1oPg3FOWzwliA2B",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.sifs-fenari-5e-race.the-fenari.Item.b38A3QkdKVcEIkrG",
+              "optional": false,
+              "sort": 0
+            }
+          ],
+          "optional": false,
+          "spell": null,
+          "sorting": "a"
+        },
+        "value": {},
+        "level": 5,
+        "hint": "",
+        "name": "Dragonborn Culture (5)",
+        "flags": {}
+      }
+    },
+    "crewed": false
+  },
+  "effects": [],
+  "folder": "VzVqme6Pkc7sGbT9",
+  "flags": {},
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

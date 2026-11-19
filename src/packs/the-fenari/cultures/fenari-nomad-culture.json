@@ -1,0 +1,122 @@
+{
+  "_id": "VMa6Jd4pQ30CZXkV",
+  "name": "Nomadic Clan",
+  "type": "feat",
+  "img": "icons/environment/settlement/wagon.webp",
+  "system": {
+    "activities": {},
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "description": {
+      "value": "<p>Some Fenari simply never settle down, preferring to keep roaming from place to place in search of new treasures to discover. These Fenari never develop the traits of another people, but that leaves them the most adaptable Fenari of all: quick to learn, quick to help, and quicker still to find whatever's hidden. They set up camp near or inside settlements to peddle their wares and any interesting things they've snatched up, and perform and entertain in exchange for whatever supplies they need.</p><p>Nomadic Fenari are the most likely to uphold the Fenari Creed, and the quickest to punish (and even shun) those who break it. They lean toward lawful ways because of the code they follow.</p><p><strong>Languages.</strong> Nomads pick up languages wherever the road takes them, often a trade tongue such as Halfling or Gnomish.</p><h3>Nomadic Clan Traits</h3><table><thead><tr><th>Level</th><th>Traits</th></tr></thead><tbody><tr><td>1</td><td>Nomadic Skill, Quick Study</td></tr><tr><td>3</td><td>Kith and Kin</td></tr><tr><td>5</td><td>Finders, Keepers</td></tr></tbody></table>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "",
+      "rules": "2024",
+      "book": "The Fenari",
+      "page": "",
+      "license": "",
+      "revision": 1
+    },
+    "enchant": {},
+    "type": {
+      "value": "race",
+      "subtype": "lineage"
+    },
+    "prerequisites": {
+      "level": null,
+      "items": [],
+      "repeatable": false
+    },
+    "properties": [],
+    "requirements": "Fenari",
+    "identifier": "fenari-nomad-culture",
+    "advancement": {
+      "n2Uemvnp3CWfMSUF": {
+        "_id": "n2Uemvnp3CWfMSUF",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.sifs-fenari-5e-race.the-fenari.Item.fI46FFxWswIbZGeG",
+              "optional": false,
+              "sort": 0
+            },
+            {
+              "uuid": "Compendium.sifs-fenari-5e-race.the-fenari.Item.eJofpCDhabFmib10",
+              "optional": false,
+              "sort": 0
+            }
+          ],
+          "optional": false,
+          "spell": null,
+          "sorting": "a"
+        },
+        "value": {},
+        "level": 1,
+        "hint": "",
+        "name": "Nomadic Clan (1)",
+        "flags": {}
+      },
+      "3qHK3auk0MrbLsJf": {
+        "_id": "3qHK3auk0MrbLsJf",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.sifs-fenari-5e-race.the-fenari.Item.yaeqgGxU6FgyKSnX",
+              "optional": false,
+              "sort": 0
+            }
+          ],
+          "optional": false,
+          "spell": null,
+          "sorting": "a"
+        },
+        "value": {},
+        "level": 3,
+        "hint": "",
+        "name": "Nomadic Clan (3)",
+        "flags": {}
+      },
+      "TlrjB74LoXRIa0JO": {
+        "_id": "TlrjB74LoXRIa0JO",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.sifs-fenari-5e-race.the-fenari.Item.A454JlH2iOLcUris",
+              "optional": false,
+              "sort": 0
+            }
+          ],
+          "optional": false,
+          "spell": null,
+          "sorting": "a"
+        },
+        "value": {},
+        "level": 5,
+        "hint": "",
+        "name": "Nomadic Clan (5)",
+        "flags": {}
+      }
+    },
+    "crewed": false
+  },
+  "effects": [],
+  "folder": "VzVqme6Pkc7sGbT9",
+  "flags": {},
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

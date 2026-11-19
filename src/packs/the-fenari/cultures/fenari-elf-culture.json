@@ -1,0 +1,164 @@
+{
+  "_id": "rebBCx11L14bg5Dn",
+  "name": "Elven Culture",
+  "type": "feat",
+  "img": "icons/magic/nature/leaf-glow-green.webp",
+  "system": {
+    "activities": {},
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "description": {
+      "value": "<p>Caravans that wander into the great elven forests rarely leave in a hurry. The Elves have all the time in the world, and the Fenari who stay with them learn a patience no other Fenari has: the patience to sit perfectly still in the underbrush until a deer walks past, or to watch a stranger for a whole evening before saying hello.</p><p>Over a few generations their ears lengthen into graceful points, their fur takes on the dappled greens and golds of sunlight through leaves, and they learn the small nature magics of their hosts, including the knack of talking with the forest's animals (which they find far more interesting company than most people). An Elven Fenari is always first to the berry patch, the stream, and the abandoned treasure in the hollow tree.</p><p>They never quite pick up the Elves' famous reserve, though. Elven Fenari still chatter, laugh, and get into everything, and they lean toward chaotic good.</p><p><strong>Languages.</strong> Most Elven Fenari learn Elvish.</p><h3>Elven Culture Traits</h3><table><thead><tr><th>Level</th><th>Traits</th></tr></thead><tbody><tr><td>1</td><td>Mask of the Wild, <em>Druidcraft</em></td></tr><tr><td>3</td><td><em>Speak with Animals</em></td></tr><tr><td>5</td><td>Patient Pounce</td></tr></tbody></table><p><strong>Spellcasting.</strong> Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells (choose when you select this Culture). You can cast each leveled spell once without a spell slot, regaining the ability when you finish a Long Rest; you can also cast them using any spell slots you have.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "",
+      "rules": "2024",
+      "book": "The Fenari",
+      "page": "",
+      "license": "",
+      "revision": 1
+    },
+    "enchant": {},
+    "type": {
+      "value": "race",
+      "subtype": "lineage"
+    },
+    "prerequisites": {
+      "level": null,
+      "items": [],
+      "repeatable": false
+    },
+    "properties": [],
+    "requirements": "Fenari",
+    "identifier": "fenari-elf-culture",
+    "advancement": {
+      "MbAKK0fGC9iu7JR3": {
+        "_id": "MbAKK0fGC9iu7JR3",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.sifs-fenari-5e-race.the-fenari.Item.kc3p1L3C45CgeVDi",
+              "optional": false,
+              "sort": 0
+            }
+          ],
+          "optional": false,
+          "spell": null,
+          "sorting": "a"
+        },
+        "value": {},
+        "level": 1,
+        "hint": "",
+        "name": "Elven Culture (1)",
+        "flags": {}
+      },
+      "0ViVCWlvrBPeYDDc": {
+        "_id": "0ViVCWlvrBPeYDDc",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e.spells24.Item.phbsplDruidcraft",
+              "optional": false,
+              "sort": 0
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [
+              "int",
+              "wis",
+              "cha"
+            ],
+            "prepared": 2,
+            "method": "spell",
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            }
+          },
+          "sorting": "m"
+        },
+        "value": {},
+        "level": 1,
+        "hint": "",
+        "name": "Elven Culture Spells (1)",
+        "flags": {}
+      },
+      "W1C0peQ6Fs3gYH9U": {
+        "_id": "W1C0peQ6Fs3gYH9U",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e.spells24.Item.phbsplSpeakwithA",
+              "optional": false,
+              "sort": 0
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [
+              "int",
+              "wis",
+              "cha"
+            ],
+            "prepared": 2,
+            "method": "spell",
+            "uses": {
+              "max": "1",
+              "per": "lr",
+              "requireSlot": false
+            }
+          },
+          "sorting": "m"
+        },
+        "value": {},
+        "level": 3,
+        "hint": "",
+        "name": "Elven Culture Spells (3)",
+        "flags": {}
+      },
+      "QVGTsenEGGhBlPZG": {
+        "_id": "QVGTsenEGGhBlPZG",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.sifs-fenari-5e-race.the-fenari.Item.4YECHAghcXfHnc22",
+              "optional": false,
+              "sort": 0
+            }
+          ],
+          "optional": false,
+          "spell": null,
+          "sorting": "a"
+        },
+        "value": {},
+        "level": 5,
+        "hint": "",
+        "name": "Elven Culture (5)",
+        "flags": {}
+      }
+    },
+    "crewed": false
+  },
+  "effects": [],
+  "folder": "VzVqme6Pkc7sGbT9",
+  "flags": {},
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

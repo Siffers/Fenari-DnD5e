@@ -1,0 +1,71 @@
+{
+  "_id": "Y0vIjl8718gaHsef",
+  "name": "Mountain Born",
+  "type": "feat",
+  "img": "icons/magic/air/wind-weather-snow-gusts.webp",
+  "system": {
+    "activities": {},
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "description": {
+      "value": "<p>Your thick mountain fur keeps out the worst of the cold. You have Resistance to Cold damage, and you're naturally acclimated to high altitudes.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "",
+      "rules": "2024",
+      "book": "The Fenari",
+      "page": "",
+      "license": "",
+      "revision": 1
+    },
+    "enchant": {},
+    "type": {
+      "value": "race",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": null,
+      "items": [],
+      "repeatable": false
+    },
+    "properties": [],
+    "requirements": "Fenari (Goliath Culture)",
+    "identifier": "fenari-mountain-born",
+    "advancement": {
+      "3TeEWZnA93o2gAW9": {
+        "_id": "3TeEWZnA93o2gAW9",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [
+            "dr:cold"
+          ],
+          "choices": []
+        },
+        "value": {},
+        "level": 0,
+        "hint": "",
+        "name": "Mountain Born",
+        "flags": {}
+      }
+    },
+    "crewed": false
+  },
+  "effects": [],
+  "folder": "eHd0swmZtvSggdyT",
+  "flags": {},
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

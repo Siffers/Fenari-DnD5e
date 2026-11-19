@@ -1,0 +1,80 @@
+{
+  "_id": "fI46FFxWswIbZGeG",
+  "name": "Nomadic Skill",
+  "type": "feat",
+  "img": "icons/environment/wilderness/camp-improvised.webp",
+  "system": {
+    "activities": {},
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "description": {
+      "value": "<p>Thanks to your upbringing on the road, you gain proficiency in one of the following skills: Animal Handling, Medicine, Nature, Performance, or Survival.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "",
+      "rules": "2024",
+      "book": "The Fenari",
+      "page": "",
+      "license": "",
+      "revision": 1
+    },
+    "enchant": {},
+    "type": {
+      "value": "race",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": null,
+      "items": [],
+      "repeatable": false
+    },
+    "properties": [],
+    "requirements": "Fenari (Nomadic Clan)",
+    "identifier": "fenari-nomadic-skill",
+    "advancement": {
+      "RKajEHXwAgb2sblH": {
+        "_id": "RKajEHXwAgb2sblH",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [],
+          "choices": [
+            {
+              "count": 1,
+              "pool": [
+                "skills:ani",
+                "skills:med",
+                "skills:nat",
+                "skills:prf",
+                "skills:sur"
+              ]
+            }
+          ]
+        },
+        "value": {},
+        "level": 0,
+        "hint": "",
+        "name": "Nomadic Skill",
+        "flags": {}
+      }
+    },
+    "crewed": false
+  },
+  "effects": [],
+  "folder": "SfyMK5nDBzOVRo6H",
+  "flags": {},
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

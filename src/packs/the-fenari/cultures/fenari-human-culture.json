@@ -1,0 +1,117 @@
+{
+  "_id": "xeRpPUNsWQZcHUZ0",
+  "name": "Human Culture",
+  "type": "feat",
+  "img": "icons/tools/hand/scale-balances-merchant-brown.webp",
+  "system": {
+    "activities": {},
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "description": {
+      "value": "<p>Humans are everywhere, so it's no surprise that more Fenari settle among them than any other people. Human cities are full of the things Fenari love most: markets, gossip, crowds to perform for, and more unattended valuables than anyone could possibly keep track of.</p><p>Human Fenari change the least in body, as there's little for them to borrow, but the most in outlook. They pick up their hosts' restless ambition and knack for learning anything at all, and throw themselves into trades, guilds, and grand plans with the same vigor other Fenari save for treasure hunting.</p><p>They're as varied as the Humans they live among (honest merchants and notorious fences, temple acolytes and street performers, often several of these in a single week), and their outlooks vary just as widely.</p><p><strong>Languages.</strong> Human Fenari learn whatever their city speaks, and usually one more for business.</p><h3>Human Culture Traits</h3><table><thead><tr><th>Level</th><th>Traits</th></tr></thead><tbody><tr><td>1</td><td>Versatility</td></tr><tr><td>3</td><td>Market Savvy</td></tr><tr><td>5</td><td>Resourceful</td></tr></tbody></table>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "",
+      "rules": "2024",
+      "book": "The Fenari",
+      "page": "",
+      "license": "",
+      "revision": 1
+    },
+    "enchant": {},
+    "type": {
+      "value": "race",
+      "subtype": "lineage"
+    },
+    "prerequisites": {
+      "level": null,
+      "items": [],
+      "repeatable": false
+    },
+    "properties": [],
+    "requirements": "Fenari",
+    "identifier": "fenari-human-culture",
+    "advancement": {
+      "1s667I4Sy5M5Eq5o": {
+        "_id": "1s667I4Sy5M5Eq5o",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.sifs-fenari-5e-race.the-fenari.Item.AlvFc4kqmhLoZ29B",
+              "optional": false,
+              "sort": 0
+            }
+          ],
+          "optional": false,
+          "spell": null,
+          "sorting": "a"
+        },
+        "value": {},
+        "level": 1,
+        "hint": "",
+        "name": "Human Culture (1)",
+        "flags": {}
+      },
+      "Lm4BglZDKaGL7vqR": {
+        "_id": "Lm4BglZDKaGL7vqR",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.sifs-fenari-5e-race.the-fenari.Item.UvPtW0gqk7Ve4Gyx",
+              "optional": false,
+              "sort": 0
+            }
+          ],
+          "optional": false,
+          "spell": null,
+          "sorting": "a"
+        },
+        "value": {},
+        "level": 3,
+        "hint": "",
+        "name": "Human Culture (3)",
+        "flags": {}
+      },
+      "dG1KXPfdSKsc7Ctn": {
+        "_id": "dG1KXPfdSKsc7Ctn",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.sifs-fenari-5e-race.the-fenari.Item.QQYF9ap3eyhKPxPn",
+              "optional": false,
+              "sort": 0
+            }
+          ],
+          "optional": false,
+          "spell": null,
+          "sorting": "a"
+        },
+        "value": {},
+        "level": 5,
+        "hint": "",
+        "name": "Human Culture (5)",
+        "flags": {}
+      }
+    },
+    "crewed": false
+  },
+  "effects": [],
+  "folder": "VzVqme6Pkc7sGbT9",
+  "flags": {},
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

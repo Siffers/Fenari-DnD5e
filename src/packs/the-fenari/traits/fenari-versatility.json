@@ -1,0 +1,124 @@
+{
+  "_id": "AlvFc4kqmhLoZ29B",
+  "name": "Versatility",
+  "type": "feat",
+  "img": "icons/skills/trades/academics-study-reading-book.webp",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>Much like the Humans they grow up with, these Fenari are endlessly adaptable. You gain proficiency in one skill of your choice, and you gain an <strong>Origin</strong> feat of your choice.</p><p><em>Under the 2024 rules, General feats require 4th level, so the free feat is an Origin feat (as with the Human's Versatile trait).</em></p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "",
+      "rules": "2024",
+      "book": "The Fenari",
+      "page": "",
+      "license": "",
+      "revision": 1
+    },
+    "enchant": {},
+    "type": {
+      "value": "race",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": null,
+      "items": [],
+      "repeatable": false
+    },
+    "properties": [],
+    "requirements": "Fenari (Human Culture)",
+    "identifier": "fenari-versatility",
+    "advancement": {
+      "zqu0mqxigWD5wbU9": {
+        "_id": "zqu0mqxigWD5wbU9",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [],
+          "choices": [
+            {
+              "count": 1,
+              "pool": [
+                "skills:*"
+              ]
+            }
+          ]
+        },
+        "value": {},
+        "level": 0,
+        "hint": "",
+        "name": "Versatility (Skill)",
+        "flags": {}
+      },
+      "HfwOae8yhNIZXt8g": {
+        "_id": "HfwOae8yhNIZXt8g",
+        "type": "ItemChoice",
+        "configuration": {
+          "allowDrops": true,
+          "choices": {
+            "0": {
+              "count": 1,
+              "replacement": false
+            }
+          },
+          "pool": [
+            {
+              "uuid": "Compendium.dnd5e.feats24.Item.phbftAlert000000",
+              "sort": 0
+            },
+            {
+              "uuid": "Compendium.dnd5e.feats24.Item.phbftMagicInitia",
+              "sort": 0
+            },
+            {
+              "uuid": "Compendium.dnd5e.feats24.Item.phbftSavageAttac",
+              "sort": 0
+            },
+            {
+              "uuid": "Compendium.dnd5e.feats24.Item.phbftSkilled0000",
+              "sort": 0
+            }
+          ],
+          "spell": null,
+          "sorting": "a",
+          "type": "feat",
+          "restriction": {
+            "list": [],
+            "school": [],
+            "type": "feat",
+            "subtype": "origin"
+          }
+        },
+        "value": {
+          "added": {},
+          "replaced": {}
+        },
+        "level": 0,
+        "hint": "",
+        "name": "Versatility (Origin Feat)",
+        "flags": {}
+      }
+    },
+    "crewed": false
+  },
+  "effects": [],
+  "folder": "jsojy7cSNhw6K1Du",
+  "flags": {},
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

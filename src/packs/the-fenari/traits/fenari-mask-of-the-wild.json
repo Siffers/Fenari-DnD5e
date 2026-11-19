@@ -1,0 +1,53 @@
+{
+  "_id": "kc3p1L3C45CgeVDi",
+  "name": "Mask of the Wild",
+  "type": "feat",
+  "img": "icons/magic/nature/leaf-glow-green.webp",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>You can take the Hide action even when you are only Lightly Obscured by foliage, heavy rain, falling snow, mist, or other natural phenomena.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "",
+      "rules": "2024",
+      "book": "The Fenari",
+      "page": "",
+      "license": "",
+      "revision": 1
+    },
+    "enchant": {},
+    "type": {
+      "value": "race",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": null,
+      "items": [],
+      "repeatable": false
+    },
+    "properties": [],
+    "requirements": "Fenari (Elven Culture)",
+    "identifier": "fenari-mask-of-the-wild",
+    "advancement": {},
+    "crewed": false
+  },
+  "effects": [],
+  "folder": "jsojy7cSNhw6K1Du",
+  "flags": {},
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

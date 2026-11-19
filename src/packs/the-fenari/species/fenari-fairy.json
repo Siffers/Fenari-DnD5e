@@ -1,0 +1,137 @@
+{
+  "name": "Fenari (Fairy)",
+  "system": {
+    "description": {
+      "value": "<h2>Fairy Culture</h2><p>Every so often a caravan follows a strange light off the road and doesn't come back. A few of those caravans find their way into the Feywild, and some of them decide they like it there.</p><p>Living among the fey changes a Fenari faster than any other host. Within a generation or two they shrink, their colors turn vivid and impossible (sunset orange, sea-glass blue, lilac fur with silver tips), and a pair of gossamer wings sprouts from their shoulders. Fairy Fenari soon learn the fey habits of trading in riddles, favors, and very carefully worded promises.</p><p>When they return to the mortal world, Fairy Fenari make for delightful and slightly alarming traveling companions: endlessly curious, quick to fly off after anything shiny, and absolutely certain that the rules don't apply to them.</p><p><strong>Alignment.</strong> Fairy Fenari tend toward chaotic neutral.</p><h3>Fenari Traits</h3><ul><li><strong>Size.</strong> Living among the fey has made these Fenari smaller than their kin, most growing between 3'4\" and 4'2\" tall and weighing 40 to 60 pounds. Your size is Small.</li><li><strong>Creature Type.</strong> Humanoid</li><li><strong>Speed.</strong> 30 feet</li><li><strong>Darkvision.</strong> You can see in Dim Light within 60 feet of you as if it were Bright Light, and in Darkness as if it were Dim Light.</li><li><strong>Enhanced Senses.</strong> You have proficiency in the Perception skill.</li><li><strong>Bite.</strong> Your fanged maw is a natural weapon you can use to make Unarmed Strikes, dealing 1d6 + your Strength modifier Piercing damage on a hit.</li><li><strong>Languages.</strong> Common and Sylvan.</li><li><strong>Fairy Flight.</strong> You have a Fly Speed equal to your Speed, which you can't use while wearing Medium or Heavy armor.</li></ul><p><em>See the <strong>The Fenari</strong> journal for the Fenari's history, Creed, and appearance.</em></p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "",
+      "rules": "2024",
+      "book": "The Fenari",
+      "page": "",
+      "license": "",
+      "revision": 1
+    },
+    "advancement": {
+      "d4siWtRegyuaMLsq": {
+        "_id": "d4siWtRegyuaMLsq",
+        "type": "Size",
+        "configuration": {
+          "sizes": [
+            "sm"
+          ]
+        },
+        "value": {},
+        "level": 0,
+        "hint": "Small",
+        "name": "",
+        "flags": {}
+      },
+      "r388W2E8UeGbNbgn": {
+        "_id": "r388W2E8UeGbNbgn",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [
+            "languages:standard:common",
+            "languages:exotic:sylvan"
+          ],
+          "choices": []
+        },
+        "value": {},
+        "level": 0,
+        "hint": "",
+        "name": "Languages",
+        "flags": {}
+      },
+      "WCMJ5eO7uTxASVJP": {
+        "_id": "WCMJ5eO7uTxASVJP",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.sifs-fenari-5e-race.the-fenari.Item.7Jq3AoUNHlcpAD8u",
+              "optional": false,
+              "sort": 0
+            },
+            {
+              "uuid": "Compendium.sifs-fenari-5e-race.the-fenari.Item.MnihZ5suzEdFdPdK",
+              "optional": false,
+              "sort": 0
+            }
+          ],
+          "optional": false,
+          "spell": null,
+          "sorting": "a"
+        },
+        "value": {},
+        "level": 0,
+        "hint": "",
+        "name": "Fenari Traits",
+        "flags": {}
+      },
+      "0t8r2azZfsOAIzXT": {
+        "_id": "0t8r2azZfsOAIzXT",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.sifs-fenari-5e-race.the-fenari.Item.60qavHP2bTaAOsyD",
+              "optional": false,
+              "sort": 0
+            }
+          ],
+          "optional": false,
+          "spell": null,
+          "sorting": "a"
+        },
+        "value": {},
+        "level": 0,
+        "hint": "",
+        "name": "Fairy Culture Traits",
+        "flags": {}
+      }
+    },
+    "movement": {
+      "units": null,
+      "hover": false,
+      "speeds": {
+        "walk": "30"
+      },
+      "ignoredDifficultTerrain": []
+    },
+    "senses": {
+      "units": null,
+      "special": "",
+      "ranges": {
+        "darkvision": 60,
+        "blindsight": null,
+        "tremorsense": null,
+        "truesight": null
+      }
+    },
+    "type": {
+      "value": "humanoid",
+      "custom": "",
+      "subtype": "Fenari"
+    },
+    "identifier": "fenari-fairy"
+  },
+  "_id": "w3uIkz5fSODqL1HM",
+  "type": "race",
+  "img": "https://dl.dropbox.com/scl/fi/hpyyl694o1zc5ffu3knwo/wagon.webp?rlkey=i4iu8v11ffvfgzfio6at2gexp&dl=0",
+  "effects": [],
+  "folder": "lj29IQyZvOfSdehk",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "_id": "WhXLKrvnoietciZl",
+  "name": "Red Scales",
+  "type": "feat",
+  "img": "icons/magic/fire/projectile-fireball-orange-green.webp",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>Your scales shimmer red. Your <strong>Dragon's Breath</strong> deals <strong>Fire</strong> damage.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "",
+      "rules": "2024",
+      "book": "The Fenari",
+      "page": "",
+      "license": "",
+      "revision": 1
+    },
+    "enchant": {},
+    "type": {
+      "value": "race",
+      "subtype": "lineage"
+    },
+    "prerequisites": {
+      "level": null,
+      "items": [],
+      "repeatable": false
+    },
+    "properties": [],
+    "requirements": "Fenari (Dragonborn Culture)",
+    "identifier": "fenari-red-scales",
+    "advancement": {
+      "ATtBeuR0cYRcxsBr": {
+        "_id": "ATtBeuR0cYRcxsBr",
+        "type": "ModifyItem",
+        "configuration": {
+          "changes": [
+            {
+              "_id": "d6jsAHrNr8QNGvEZ",
+              "uuid": "Compendium.dnd5e.effects.ActiveEffect.phbeffBreWeapFir",
+              "identifiers": [
+                "feat:breath-weapon"
+              ]
+            }
+          ]
+        },
+        "value": {
+          "modified": []
+        },
+        "level": 0,
+        "hint": "",
+        "name": "",
+        "flags": {}
+      }
+    },
+    "crewed": false
+  },
+  "effects": [],
+  "folder": "BrmIwDr39BVZ9NGK",
+  "flags": {},
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

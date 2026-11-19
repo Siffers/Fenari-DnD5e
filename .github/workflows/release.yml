@@ -1,0 +1,57 @@
+# Builds the module and attaches the install files whenever a GitHub release is published.
+#
+# 1. Publish a release with a tag like 2.0.1 (a leading "v" is fine too)
+# 2. This workflow builds the compendiums from src/, stamps the version and links into
+#    module.json, zips the module, and attaches module.json + module.zip to the release.
+#
+# Install link (Manifest URL), always the same:
+#   https://github.com/Siffers/Fenari-DnD5e/releases/latest/download/module.json
+
+name: Release
+
+on:
+  release:
+    types: [published]
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Build compendium packs
+        run: |
+          npm install --no-save classic-level@1
+          node tools/build-packs.cjs
+
+      - name: Stamp version and links into module.json
+        env:
+          TAG: ${{ github.event.release.tag_name }}
+          REPO: ${{ github.repository }}
+        run: |
+          VERSION="${TAG#v}"
+          jq --arg version "$VERSION" \
+             --arg url "https://github.com/$REPO" \
+             --arg manifest "https://github.com/$REPO/releases/latest/download/module.json" \
+             --arg download "https://github.com/$REPO/releases/download/$TAG/module.zip" \
+             '.version = $version | .url = $url | .manifest = $manifest | .download = $download' \
+             module.json > module.tmp.json
+          mv module.tmp.json module.json
+          cat module.json
+
+      - name: Build module.zip
+        run: zip -r module.zip module.json packs README.md LICENSE-NOTICES.md
+
+      - name: Attach files to the release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: |
+            module.json
+            module.zip

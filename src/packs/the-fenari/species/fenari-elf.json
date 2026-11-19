@@ -1,0 +1,138 @@
+{
+  "name": "Fenari (Elf)",
+  "system": {
+    "description": {
+      "value": "<h2>Elven Culture</h2><p>Caravans that wander into the great elven forests rarely leave in a hurry. The Elves have all the time in the world, and the Fenari who stay with them learn a patience no other Fenari has: the patience to sit perfectly still in the underbrush until a deer walks past, or to watch a stranger for a whole evening before saying hello.</p><p>Over a few generations their ears lengthen into graceful points, their fur takes on the dappled greens and golds of sunlight through leaves, and their eyes settle into the bright, gemlike colors of their hosts. They become famously hard to find in the woods, a skill they put to good use: an Elven Fenari is always first to the berry patch, the stream, and the abandoned treasure in the hollow tree.</p><p>They never quite pick up the Elves' famous reserve, though. Elven Fenari still chatter, laugh, and get into everything, and their hosts tend to regard them with the fond exasperation usually reserved for very clever foxes.</p><p><strong>Alignment.</strong> Elven Fenari tend toward chaotic good.</p><h3>Fenari Traits</h3><ul><li><strong>Size.</strong> Fenari grow between 4'0\" and 5'2\" tall and weigh 70 to 120 pounds. Your size is Small or Medium (choose when you select this species).</li><li><strong>Creature Type.</strong> Humanoid</li><li><strong>Speed.</strong> 30 feet</li><li><strong>Darkvision.</strong> You can see in Dim Light within 60 feet of you as if it were Bright Light, and in Darkness as if it were Dim Light.</li><li><strong>Enhanced Senses.</strong> You have proficiency in the Perception skill.</li><li><strong>Bite.</strong> Your fanged maw is a natural weapon you can use to make Unarmed Strikes, dealing 1d6 + your Strength modifier Piercing damage on a hit.</li><li><strong>Languages.</strong> Common and Elvish.</li><li><strong>Mask of the Wild.</strong> You can Hide even when only Lightly Obscured by foliage, heavy rain, falling snow, mist, or other natural phenomena.</li></ul><p><em>See the <strong>The Fenari</strong> journal for the Fenari's history, Creed, and appearance.</em></p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "",
+      "rules": "2024",
+      "book": "The Fenari",
+      "page": "",
+      "license": "",
+      "revision": 1
+    },
+    "advancement": {
+      "x3zGNpi99rvM0HX9": {
+        "_id": "x3zGNpi99rvM0HX9",
+        "type": "Size",
+        "configuration": {
+          "sizes": [
+            "sm",
+            "med"
+          ]
+        },
+        "value": {},
+        "level": 0,
+        "hint": "Small or Medium",
+        "name": "",
+        "flags": {}
+      },
+      "BHgmlMJ3cjHVJaYt": {
+        "_id": "BHgmlMJ3cjHVJaYt",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [
+            "languages:standard:common",
+            "languages:standard:elvish"
+          ],
+          "choices": []
+        },
+        "value": {},
+        "level": 0,
+        "hint": "",
+        "name": "Languages",
+        "flags": {}
+      },
+      "lItKNPMEDDX4ibWK": {
+        "_id": "lItKNPMEDDX4ibWK",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.sifs-fenari-5e-race.the-fenari.Item.7Jq3AoUNHlcpAD8u",
+              "optional": false,
+              "sort": 0
+            },
+            {
+              "uuid": "Compendium.sifs-fenari-5e-race.the-fenari.Item.MnihZ5suzEdFdPdK",
+              "optional": false,
+              "sort": 0
+            }
+          ],
+          "optional": false,
+          "spell": null,
+          "sorting": "a"
+        },
+        "value": {},
+        "level": 0,
+        "hint": "",
+        "name": "Fenari Traits",
+        "flags": {}
+      },
+      "XnabVQyJgNBnPSMe": {
+        "_id": "XnabVQyJgNBnPSMe",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.sifs-fenari-5e-race.the-fenari.Item.kc3p1L3C45CgeVDi",
+              "optional": false,
+              "sort": 0
+            }
+          ],
+          "optional": false,
+          "spell": null,
+          "sorting": "a"
+        },
+        "value": {},
+        "level": 0,
+        "hint": "",
+        "name": "Elven Culture Traits",
+        "flags": {}
+      }
+    },
+    "movement": {
+      "units": null,
+      "hover": false,
+      "speeds": {
+        "walk": "30"
+      },
+      "ignoredDifficultTerrain": []
+    },
+    "senses": {
+      "units": null,
+      "special": "",
+      "ranges": {
+        "darkvision": 60,
+        "blindsight": null,
+        "tremorsense": null,
+        "truesight": null
+      }
+    },
+    "type": {
+      "value": "humanoid",
+      "custom": "",
+      "subtype": "Fenari"
+    },
+    "identifier": "fenari-elf"
+  },
+  "_id": "b9tiqUQlY94epoaJ",
+  "type": "race",
+  "img": "https://dl.dropbox.com/scl/fi/hpyyl694o1zc5ffu3knwo/wagon.webp?rlkey=i4iu8v11ffvfgzfio6at2gexp&dl=0",
+  "effects": [],
+  "folder": "lj29IQyZvOfSdehk",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

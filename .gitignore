@@ -1,0 +1,13 @@
+# Compendiums are built from src/ (tools/build-packs.cjs); GitHub Actions builds them for releases.
+/packs/
+
+# release build output
+/module.zip
+/module.tmp.json
+
+# Foundry / OS clutter
+*.lock
+node_modules/
+Thumbs.db
+desktop.ini
+.DS_Store

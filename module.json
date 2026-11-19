@@ -1,12 +1,30 @@
 {
   "id": "sifs-fenari-5e-race",
   "title": "Sif's Fenari 5e Race",
-  "version": "1.0.0",
-  "manifest": "https://github.com/Siffers/Fenari-DnD5e/blob/main/module.json",
-  "download": "https://github.com/Siffers/Fenari-DnD5e/blob/main/module.zip",
+  "description": "The Fenari: fluffy, nomadic demi-humans who take on the traits of the peoples they settle among. Adds seven Fenari species (2024 rules) with their traits, and a lore journal.",
+  "version": "2.0.0",
+  "authors": [
+    {
+      "name": "Siffers"
+    }
+  ],
+  "url": "https://github.com/Siffers/Fenari-DnD5e",
+  "manifest": "https://github.com/Siffers/Fenari-DnD5e/releases/latest/download/module.json",
+  "download": "https://github.com/Siffers/Fenari-DnD5e/releases/download/2.0.0/module.zip",
   "compatibility": {
-    "minimum": "12",
-    "verified": "12"
+    "minimum": "13",
+    "verified": "14"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {
+          "minimum": "6.0.0"
+        }
+      }
+    ]
   },
   "packs": [
     {
@@ -14,12 +32,31 @@
       "label": "The Fenari",
       "path": "packs/the-fenari",
       "type": "Item",
+      "system": "dnd5e",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
       },
-      "system": "dnd5e",
       "flags": {}
+    },
+    {
+      "name": "fenari-lore",
+      "label": "The Fenari (Lore)",
+      "path": "packs/fenari-lore",
+      "type": "JournalEntry",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "The Fenari",
+      "sorting": "m",
+      "packs": ["the-fenari", "fenari-lore"]
     }
   ]
 }

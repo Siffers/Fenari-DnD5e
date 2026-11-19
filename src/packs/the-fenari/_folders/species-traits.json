@@ -1,0 +1,16 @@
+{
+  "_id": "jsojy7cSNhw6K1Du",
+  "name": "Species Traits",
+  "type": "Item",
+  "folder": null,
+  "sorting": "a",
+  "sort": 200000,
+  "color": null,
+  "description": "",
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

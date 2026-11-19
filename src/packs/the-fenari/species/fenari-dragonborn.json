@@ -1,0 +1,143 @@
+{
+  "name": "Fenari (Dragonborn)",
+  "system": {
+    "description": {
+      "value": "<h2>Dragonborn Culture</h2><p>Dragonborn Fenari adorn themselves with jewelry and dazzling apparel in an attempt to emulate the natural scales of their hosts. This extends even to their armor; many favor Scale Mail even when it hinders more than it helps.</p><p>Over the generations these Fenari grow draconic horns, soft scales spread over their skin in place of fur, and their ears take on a pointed look. Eventually they develop the same breath sacs as their Dragonborn kith.</p><p><strong>Alignment.</strong> Dragonborn Fenari tend to lean more toward good than evil.</p><h3>Fenari Traits</h3><ul><li><strong>Size.</strong> Fenari grow between 4'0\" and 5'2\" tall and weigh 70 to 120 pounds. Your size is Small or Medium (choose when you select this species).</li><li><strong>Creature Type.</strong> Humanoid</li><li><strong>Speed.</strong> 30 feet</li><li><strong>Darkvision.</strong> You can see in Dim Light within 60 feet of you as if it were Bright Light, and in Darkness as if it were Dim Light.</li><li><strong>Enhanced Senses.</strong> You have proficiency in the Perception skill.</li><li><strong>Bite.</strong> Your fanged maw is a natural weapon you can use to make Unarmed Strikes, dealing 1d6 + your Strength modifier Piercing damage on a hit.</li><li><strong>Languages.</strong> Common and Draconic.</li><li><strong>Scale Color.</strong> Choose the color of your scales; it sets your Dragon's Breath damage type (Acid, Cold, Fire, Lightning, or Poison).</li><li><strong>Dragon's Breath.</strong> When you take the Attack action, you can replace one attack with a 15-foot Cone or 30-foot Line of energy (Dexterity save, DC 8 + Constitution modifier + Proficiency Bonus) dealing 1d10 damage, rising to 2d10 at 5th level, 3d10 at 11th, and 4d10 at 17th. Uses equal to your Proficiency Bonus per Long Rest.</li></ul><p><em>See the <strong>The Fenari</strong> journal for the Fenari's history, Creed, and appearance.</em></p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "",
+      "rules": "2024",
+      "book": "The Fenari",
+      "page": "",
+      "license": "",
+      "revision": 1
+    },
+    "advancement": {
+      "TRctE8Nxlb6TsPih": {
+        "_id": "TRctE8Nxlb6TsPih",
+        "type": "Size",
+        "configuration": {
+          "sizes": [
+            "sm",
+            "med"
+          ]
+        },
+        "value": {},
+        "level": 0,
+        "hint": "Small or Medium",
+        "name": "",
+        "flags": {}
+      },
+      "ZxSwgPr3rbPBfX6A": {
+        "_id": "ZxSwgPr3rbPBfX6A",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [
+            "languages:standard:common",
+            "languages:standard:draconic"
+          ],
+          "choices": []
+        },
+        "value": {},
+        "level": 0,
+        "hint": "",
+        "name": "Languages",
+        "flags": {}
+      },
+      "CW3C7OJ6eSNlsqw5": {
+        "_id": "CW3C7OJ6eSNlsqw5",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.sifs-fenari-5e-race.the-fenari.Item.7Jq3AoUNHlcpAD8u",
+              "optional": false,
+              "sort": 0
+            },
+            {
+              "uuid": "Compendium.sifs-fenari-5e-race.the-fenari.Item.MnihZ5suzEdFdPdK",
+              "optional": false,
+              "sort": 0
+            }
+          ],
+          "optional": false,
+          "spell": null,
+          "sorting": "a"
+        },
+        "value": {},
+        "level": 0,
+        "hint": "",
+        "name": "Fenari Traits",
+        "flags": {}
+      },
+      "CxGXylNeQ54RkmOM": {
+        "_id": "CxGXylNeQ54RkmOM",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.sifs-fenari-5e-race.the-fenari.Item.mjYgX1O5D2cWAKDd",
+              "optional": false,
+              "sort": 0
+            },
+            {
+              "uuid": "Compendium.sifs-fenari-5e-race.the-fenari.Item.ssN1njpthvpvUKuY",
+              "optional": false,
+              "sort": 0
+            }
+          ],
+          "optional": false,
+          "spell": null,
+          "sorting": "a"
+        },
+        "value": {},
+        "level": 0,
+        "hint": "",
+        "name": "Dragonborn Culture Traits",
+        "flags": {}
+      }
+    },
+    "movement": {
+      "units": null,
+      "hover": false,
+      "speeds": {
+        "walk": "30"
+      },
+      "ignoredDifficultTerrain": []
+    },
+    "senses": {
+      "units": null,
+      "special": "",
+      "ranges": {
+        "darkvision": 60,
+        "blindsight": null,
+        "tremorsense": null,
+        "truesight": null
+      }
+    },
+    "type": {
+      "value": "humanoid",
+      "custom": "",
+      "subtype": "Fenari"
+    },
+    "identifier": "fenari-dragonborn"
+  },
+  "_id": "OLFj38oGPmB6edoC",
+  "type": "race",
+  "img": "https://dl.dropbox.com/scl/fi/hpyyl694o1zc5ffu3knwo/wagon.webp?rlkey=i4iu8v11ffvfgzfio6at2gexp&dl=0",
+  "effects": [],
+  "folder": "lj29IQyZvOfSdehk",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "_id": "BrmIwDr39BVZ9NGK",
+  "name": "Scale Colors",
+  "type": "Item",
+  "folder": "jsojy7cSNhw6K1Du",
+  "sorting": "a",
+  "sort": 100000,
+  "color": null,
+  "description": "",
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

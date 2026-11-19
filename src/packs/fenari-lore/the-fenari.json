@@ -1,0 +1,338 @@
+{
+  "_id": "vOguRH2kALwI9Una",
+  "name": "The Fenari",
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "categories": [],
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  },
+  "pages": [
+    {
+      "_id": "GTU1HTdcroviiEZz",
+      "name": "The Fenari",
+      "type": "text",
+      "sort": 100000,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "category": null,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "text": {
+        "content": "<blockquote><p><em>\"Look, I really don't care about the gold, I just wanna be the first to see what's in the chest!\"</em></p><p>— A Young Fenari</p></blockquote><h2>Fluffy Little Nomads</h2><p>No one truly knows where the Fenari came from, or when the world at large first encountered them. What is known is that they have no homeland of their own. They are nomads, traveling in small caravans for years at a time. Each caravan is made up of three to nine families, and each family has anywhere from one to five children. They spend their days roaming from place to place in search of new places to discover, treasures to pilfer, and secrets to uncover.</p><p>When a caravan comes across a settlement, it sets up camp on the outskirts. The Fenari peddle their wares and surplus supplies, auction off the interesting things they've found, and perform and entertain in exchange for whatever supplies they need.</p><h2>The Fenari Creed</h2><p>Though every caravan is different, a few unspoken laws are shared between them all, and every Fenari does their best to uphold them:</p><ol><li>Do no harm to kith and kin, but take none in return.</li><li>Share that which you don't need with kith and kin.</li><li>Take only that which isn't claimed by kith or kin.</li><li>Respect other caravans as if they were your own.</li></ol><p>Outsiders are quick to notice what the Creed <em>doesn't</em> say. Anything not claimed by kith or kin is, by a Fenari's reckoning, fair game, which is why so many town guards keep a close eye on the caravan camp at the edge of town.</p><h2>Cultural Parasites</h2><p>When a caravan finds a place it truly likes, its families begin to settle among the local towns and cities. That is when the most interesting trait of the Fenari begins to show. \"Cultural parasite\" is an apt term for the little nomads: they begin to emulate the dominant people of their chosen home, slowly taking on its ideals and beliefs.</p><p>Stranger still are the changes to their bodies. After two or three generations, settled Fenari start to take on the physical traits of their cultural hosts, gaining abilities the nomadic Fenari never possessed: draconic breath, fairy wings, a Goliath's sturdy build, and more. These settled lines are known as <strong>Cultures</strong>, and each is a Fenari species option of its own.</p>",
+        "format": 1,
+        "markdown": ""
+      },
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6"
+      }
+    },
+    {
+      "_id": "gGacpGy7lrN8UcAy",
+      "name": "Appearance & Names",
+      "type": "text",
+      "sort": 200000,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "category": null,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "text": {
+        "content": "<h2>Appearance</h2><p>The Fenari are demi-humans with animal features, most commonly feline or canine, though other mammalian features have been seen and, rarely, even reptilian ones. These features usually take the form of ears, tails, and legs, but occasionally appear as animal-like hands, eyes, or noses. Their hair, skin, fur, and eyes come in a wide array of colors, natural and otherwise.</p><p>Fenari are on the shorter side, and just as light as they look. Most stand between 4'0\" and 5'2\" and weigh 70 to 120 pounds. Many keep a youthful appearance well into adulthood, which suits their curious vigor.</p><p>A Fenari's appearance isn't set in stone at birth. Climate shapes them: colder lands bring thicker fur, and drier ones shorter fur. Long stays on other planes leave their mark too. The Feywild brings vibrant, spectacular colors, while the Shadowfell leaves them muted and dreary.</p><h2>Life and Age</h2><p>Fenari age at roughly the same rate as Humans, reaching maturity around 16 and rarely living past 100.</p><h2>Names</h2><p>A Fenari has a given name and a caravan name. Given names are short and bright, easy to shout across a busy camp. The caravan name is shared by everyone who travels together and usually commemorates something the caravan found, survived, or is still a little embarrassed about. Settled Fenari often adopt names in the style of their hosts within a generation or two, though most keep their caravan name.</p><p><strong>Given Names:</strong> Ash, Bix, Callo, Dimi, Esk, Fenn, Gilly, Hollin, Ivo, Jessa, Kip, Lark, Mira, Nim, Oddry, Pip, Quill, Rue, Sable, Tamsin, Ulla, Vex, Wren, Yarrow, Zuzu</p><p><strong>Caravan Names:</strong> Brightwheel, Copperpot, Farwander, Goldentail, Lanternfoot, Lostmap, Muddyboot, Quickfinder, Saltroad, Thistledown, Tinkerjack, Whistlecart</p>",
+        "format": 1,
+        "markdown": ""
+      },
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6"
+      }
+    },
+    {
+      "_id": "lW32zkfbpJXlqwMG",
+      "name": "Fenari Traits",
+      "type": "text",
+      "sort": 300000,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "category": null,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "text": {
+        "content": "<p>Though they're quick learners and fast to adapt to their surroundings, all Fenari share a few traits however varied their appearance. Every Fenari species option in this module includes these traits.</p><ul><li><strong>Size.</strong> Small or Medium (Fairy Culture: Small; Goliath Culture: Medium)</li><li><strong>Creature Type.</strong> Humanoid</li><li><strong>Speed.</strong> 30 feet</li><li><strong>Darkvision.</strong> You can see in Dim Light within 60 feet of you as if it were Bright Light, and in Darkness as if it were Dim Light.</li><li><strong>Enhanced Senses.</strong> You have proficiency in the Perception skill.</li><li><strong>Bite.</strong> Your fanged maw is a natural weapon you can use to make Unarmed Strikes, dealing 1d6 + your Strength modifier Piercing damage on a hit.</li><li><strong>Languages.</strong> Common and one language from your Culture.</li></ul><h3>Ability Scores</h3><p>These are 2024-rules species: your ability score increases come from your Background, not your species. If your table uses older backgrounds without ability score increases, give the character the classic option instead: increase one score by 2 and a different score by 1, or increase three different scores by 1 (no score above 20).</p>",
+        "format": 1,
+        "markdown": ""
+      },
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6"
+      }
+    },
+    {
+      "_id": "oMQJ8aaH1nRc6Y3h",
+      "name": "Nomadic Clan",
+      "type": "text",
+      "sort": 400000,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "category": null,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "text": {
+        "content": "<p>Some Fenari simply never settle down, preferring to keep roaming from place to place in search of new treasures to discover. These Fenari never develop traits or ideals from another people, but it leaves them wonderfully adaptable. They set up camp near or inside settlements to peddle their wares and any interesting things they've snatched up, and perform and entertain in exchange for whatever supplies they need.</p><p>Nomadic Fenari are the most likely to uphold the Fenari Creed, and the quickest to punish (and even shun) those who break it.</p><p><strong>Alignment.</strong> Nomadic Fenari aren't swayed by other peoples, and their Creed pulls them toward lawful alignments.</p><p><strong>Languages.</strong> Common and one other language of your choice.</p><ul><li><strong>Nomadic Skill.</strong> You gain proficiency in two of: Animal Handling, Medicine, Nature, Performance, Survival, Cartographer's Tools, Leatherworker's Tools, Weaver's Tools, Woodcarver's Tools, or one musical instrument.</li></ul><p>@UUID[Compendium.sifs-fenari-5e-race.the-fenari.Item.gJxg2ja1JcvkMdYP]{Fenari (Nomad)}</p>",
+        "format": 1,
+        "markdown": ""
+      },
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6"
+      }
+    },
+    {
+      "_id": "phjy4LU3D2wyEM2F",
+      "name": "Dragonborn Culture",
+      "type": "text",
+      "sort": 500000,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "category": null,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "text": {
+        "content": "<p>Dragonborn Fenari adorn themselves with jewelry and dazzling apparel in an attempt to emulate the natural scales of their hosts. This extends even to their armor; many favor Scale Mail even when it hinders more than it helps.</p><p>Over the generations these Fenari grow draconic horns, soft scales spread over their skin in place of fur, and their ears take on a pointed look. Eventually they develop the same breath sacs as their Dragonborn kith.</p><p><strong>Alignment.</strong> Dragonborn Fenari tend to lean more toward good than evil.</p><p><strong>Languages.</strong> Common and Draconic.</p><ul><li><strong>Scale Color.</strong> Choose the color of your scales; it sets your Dragon's Breath damage type (Acid, Cold, Fire, Lightning, or Poison).</li><li><strong>Dragon's Breath.</strong> When you take the Attack action, you can replace one attack with a 15-foot Cone or 30-foot Line of energy (Dexterity save, DC 8 + Constitution modifier + Proficiency Bonus) dealing 1d10 damage, rising to 2d10 at 5th level, 3d10 at 11th, and 4d10 at 17th. Uses equal to your Proficiency Bonus per Long Rest.</li></ul><p>@UUID[Compendium.sifs-fenari-5e-race.the-fenari.Item.OLFj38oGPmB6edoC]{Fenari (Dragonborn)}</p>",
+        "format": 1,
+        "markdown": ""
+      },
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6"
+      }
+    },
+    {
+      "_id": "Lyb8ylSLPBVo4ivD",
+      "name": "Dwarven Culture",
+      "type": "text",
+      "sort": 600000,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "category": null,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "text": {
+        "content": "<p>Dwarven Fenari often have paler complexions than their surface-dwelling kin, as years beneath the mountains deprive them of sunlight. The Dwarves are known for their ferocity and tenacity in battle, and for their unrivaled ability to hold their liquor, and these are the traits the Fenari most try to emulate.</p><p>They spend their days working alongside their Dwarven friends, learning to wield Dwarven weapons, and retire to the tavern in the evenings to drink their fill. Though it's less common, some Fenari take to the forge and the stonecutter's chisel instead of the battle line.</p><p><strong>Alignment.</strong> Dwarven Fenari tend toward lawful good.</p><p><strong>Languages.</strong> Common and Dwarvish.</p><ul><li><strong>Dwarven Resilience.</strong> You have Resistance to Poison damage and Advantage on saving throws to avoid or end the Poisoned condition.</li><li><strong>Dwarven Upbringing.</strong> Choose <em>Stout Warrior</em> (proficiency with the Battleaxe, Handaxe, Light Hammer, and Warhammer) or <em>Stone Appreciator</em> (Mason's Tools, and double proficiency on History checks about stonework).</li></ul><p>@UUID[Compendium.sifs-fenari-5e-race.the-fenari.Item.bDABaAxxzvD5PP2N]{Fenari (Dwarf)}</p>",
+        "format": 1,
+        "markdown": ""
+      },
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6"
+      }
+    },
+    {
+      "_id": "iIGyDAGS5O0CkQkk",
+      "name": "Elven Culture",
+      "type": "text",
+      "sort": 700000,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "category": null,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "text": {
+        "content": "<p>Caravans that wander into the great elven forests rarely leave in a hurry. The Elves have all the time in the world, and the Fenari who stay with them learn a patience no other Fenari has: the patience to sit perfectly still in the underbrush until a deer walks past, or to watch a stranger for a whole evening before saying hello.</p><p>Over a few generations their ears lengthen into graceful points, their fur takes on the dappled greens and golds of sunlight through leaves, and their eyes settle into the bright, gemlike colors of their hosts. They become famously hard to find in the woods, a skill they put to good use: an Elven Fenari is always first to the berry patch, the stream, and the abandoned treasure in the hollow tree.</p><p>They never quite pick up the Elves' famous reserve, though. Elven Fenari still chatter, laugh, and get into everything, and their hosts tend to regard them with the fond exasperation usually reserved for very clever foxes.</p><p><strong>Alignment.</strong> Elven Fenari tend toward chaotic good.</p><p><strong>Languages.</strong> Common and Elvish.</p><ul><li><strong>Mask of the Wild.</strong> You can Hide even when only Lightly Obscured by foliage, heavy rain, falling snow, mist, or other natural phenomena.</li></ul><p>@UUID[Compendium.sifs-fenari-5e-race.the-fenari.Item.b9tiqUQlY94epoaJ]{Fenari (Elf)}</p>",
+        "format": 1,
+        "markdown": ""
+      },
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6"
+      }
+    },
+    {
+      "_id": "6FmVeBRLa2Zr49oP",
+      "name": "Fairy Culture",
+      "type": "text",
+      "sort": 800000,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "category": null,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "text": {
+        "content": "<p>Every so often a caravan follows a strange light off the road and doesn't come back. A few of those caravans find their way into the Feywild, and some of them decide they like it there.</p><p>Living among the fey changes a Fenari faster than any other host. Within a generation or two they shrink, their colors turn vivid and impossible (sunset orange, sea-glass blue, lilac fur with silver tips), and a pair of gossamer wings sprouts from their shoulders. Fairy Fenari soon learn the fey habits of trading in riddles, favors, and very carefully worded promises.</p><p>When they return to the mortal world, Fairy Fenari make for delightful and slightly alarming traveling companions: endlessly curious, quick to fly off after anything shiny, and absolutely certain that the rules don't apply to them.</p><p><strong>Alignment.</strong> Fairy Fenari tend toward chaotic neutral.</p><p><strong>Size.</strong> Living among the fey has made these Fenari smaller than their kin, most growing between 3'4\" and 4'2\" tall and weighing 40 to 60 pounds. Your size is Small.</p><p><strong>Languages.</strong> Common and Sylvan.</p><ul><li><strong>Fairy Flight.</strong> You have a Fly Speed equal to your Speed, which you can't use while wearing Medium or Heavy armor.</li></ul><p>@UUID[Compendium.sifs-fenari-5e-race.the-fenari.Item.w3uIkz5fSODqL1HM]{Fenari (Fairy)}</p>",
+        "format": 1,
+        "markdown": ""
+      },
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6"
+      }
+    },
+    {
+      "_id": "9whWY4L0DqSdQYvR",
+      "name": "Goliath Culture",
+      "type": "text",
+      "sort": 900000,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "category": null,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "text": {
+        "content": "<p>High in the mountains, where the air is thin and the wind never stops, Goliath clans live by competition: every hunt, climb, and supper is a chance to outdo yesterday. Fenari who settle among them take to this with enthusiasm, if not always with dignity.</p><p>Over the generations these Fenari grow larger and stockier than any of their kin. Their fur thickens against the cold, often in stone grays and snowy whites, and some develop faint markings that echo the lithoderms of the Goliaths around them.</p><p>Goliath Fenari keep careful score of everything: the heaviest stone lifted, the steepest climb, the most impressive thing found in someone else's pack. They're fiercely proud of their place in the clan and will cheerfully challenge creatures three times their size to prove they deserve it.</p><p><strong>Alignment.</strong> Goliath Fenari tend toward lawful neutral.</p><p><strong>Size.</strong> Living among Goliaths has made these Fenari larger than their kin, most growing between 4'8\" and 5'6\" tall and weighing 100 to 150 pounds. Your size is Medium.</p><p><strong>Languages.</strong> Common and Giant.</p><ul><li><strong>Compact Power.</strong> You count as one size larger for carrying capacity and the weight you can push, drag, or lift.</li></ul><p>@UUID[Compendium.sifs-fenari-5e-race.the-fenari.Item.TcGKiqC8Z52tveei]{Fenari (Goliath)}</p>",
+        "format": 1,
+        "markdown": ""
+      },
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6"
+      }
+    },
+    {
+      "_id": "sqAnPss7aDUeO61p",
+      "name": "Human Culture",
+      "type": "text",
+      "sort": 1000000,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "category": null,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "text": {
+        "content": "<p>Humans are everywhere, so it's no surprise that more Fenari settle among them than any other people. Human cities are full of the things Fenari love most: markets, gossip, crowds to perform for, and more unattended valuables than anyone could possibly keep track of.</p><p>Human Fenari change the least in body, as there's little for them to borrow, but the most in outlook. They pick up their hosts' restless ambition and knack for learning anything at all, and tend to throw themselves into trades, guilds, and grand plans with the same vigor other Fenari save for treasure hunting.</p><p>They're as varied as the Humans they live among: honest merchants and notorious fences, temple acolytes and street performers, often several of these in a single week.</p><p><strong>Alignment.</strong> Fenari who live among Humans vary as widely in alignment as the Humans they grew up with.</p><p><strong>Languages.</strong> Common and one other language of your choice.</p><ul><li><strong>Versatility.</strong> You gain proficiency in one skill of your choice and an Origin feat of your choice.</li></ul><p>@UUID[Compendium.sifs-fenari-5e-race.the-fenari.Item.M7UPa0hPUhY7vsSx]{Fenari (Human)}</p>",
+        "format": 1,
+        "markdown": ""
+      },
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6"
+      }
+    }
+  ]
+}

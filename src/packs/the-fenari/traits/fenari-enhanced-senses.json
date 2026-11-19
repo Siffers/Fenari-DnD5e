@@ -1,0 +1,71 @@
+{
+  "_id": "7Jq3AoUNHlcpAD8u",
+  "name": "Enhanced Senses",
+  "type": "feat",
+  "img": "icons/magic/perception/eye-ringed-green.webp",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>Fenari have keen eyes and sharp ears. You have proficiency in the <strong>Perception</strong> skill.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "",
+      "rules": "2024",
+      "book": "The Fenari",
+      "page": "",
+      "license": "",
+      "revision": 1
+    },
+    "enchant": {},
+    "type": {
+      "value": "race",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": null,
+      "items": [],
+      "repeatable": false
+    },
+    "properties": [],
+    "requirements": "Fenari",
+    "identifier": "fenari-enhanced-senses",
+    "advancement": {
+      "DNaHnD7vjxqwuwg3": {
+        "_id": "DNaHnD7vjxqwuwg3",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [
+            "skills:prc"
+          ],
+          "choices": []
+        },
+        "value": {},
+        "level": 0,
+        "hint": "",
+        "name": "Enhanced Senses",
+        "flags": {}
+      }
+    },
+    "crewed": false
+  },
+  "effects": [],
+  "folder": "jsojy7cSNhw6K1Du",
+  "flags": {},
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

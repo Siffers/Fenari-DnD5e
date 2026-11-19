@@ -1,0 +1,126 @@
+{
+  "_id": "mjYgX1O5D2cWAKDd",
+  "name": "Scale Color",
+  "type": "feat",
+  "img": "icons/commodities/leather/scales-blue.webp",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>As Dragonborn Fenari take on draconic traits, their fur gives way to soft scales in a color drawn from the dragons of their adopted home. Choose a color from the table; it determines your <strong>Dragon's Breath</strong> damage type.</p><table><thead><tr><th>Scales</th><th>Damage Type</th></tr></thead><tbody><tr><td>Black</td><td>Acid</td></tr><tr><td>Blue</td><td>Lightning</td></tr><tr><td>Brass</td><td>Fire</td></tr><tr><td>Bronze</td><td>Lightning</td></tr><tr><td>Copper</td><td>Acid</td></tr><tr><td>Gold</td><td>Fire</td></tr><tr><td>Green</td><td>Poison</td></tr><tr><td>Red</td><td>Fire</td></tr><tr><td>Silver</td><td>Cold</td></tr><tr><td>White</td><td>Cold</td></tr></tbody></table>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "",
+      "rules": "2024",
+      "book": "The Fenari",
+      "page": "",
+      "license": "",
+      "revision": 1
+    },
+    "enchant": {},
+    "type": {
+      "value": "race",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": null,
+      "items": [],
+      "repeatable": false
+    },
+    "properties": [],
+    "requirements": "Fenari (Dragonborn Culture)",
+    "identifier": "fenari-scale-color",
+    "advancement": {
+      "2xfHml4cccw0j4jc": {
+        "_id": "2xfHml4cccw0j4jc",
+        "type": "ItemChoice",
+        "configuration": {
+          "allowDrops": true,
+          "choices": {
+            "0": {
+              "count": 1,
+              "replacement": false
+            }
+          },
+          "pool": [
+            {
+              "uuid": "Compendium.sifs-fenari-5e-race.the-fenari.Item.FzDfLx5edr9AxlfH",
+              "sort": 0
+            },
+            {
+              "uuid": "Compendium.sifs-fenari-5e-race.the-fenari.Item.nEtzQJMpsCQTLfgS",
+              "sort": 0
+            },
+            {
+              "uuid": "Compendium.sifs-fenari-5e-race.the-fenari.Item.FvOOdRLehvQYz0Yt",
+              "sort": 0
+            },
+            {
+              "uuid": "Compendium.sifs-fenari-5e-race.the-fenari.Item.NSwsvpxVOVBTjxN4",
+              "sort": 0
+            },
+            {
+              "uuid": "Compendium.sifs-fenari-5e-race.the-fenari.Item.QDfFTAEu8AzY3Bhr",
+              "sort": 0
+            },
+            {
+              "uuid": "Compendium.sifs-fenari-5e-race.the-fenari.Item.tsJkko1h8nAiqE2V",
+              "sort": 0
+            },
+            {
+              "uuid": "Compendium.sifs-fenari-5e-race.the-fenari.Item.g6X0ElmrTWcJe6uM",
+              "sort": 0
+            },
+            {
+              "uuid": "Compendium.sifs-fenari-5e-race.the-fenari.Item.WhXLKrvnoietciZl",
+              "sort": 0
+            },
+            {
+              "uuid": "Compendium.sifs-fenari-5e-race.the-fenari.Item.9s4RryIIsaakaIrm",
+              "sort": 0
+            },
+            {
+              "uuid": "Compendium.sifs-fenari-5e-race.the-fenari.Item.uDQBe1ZaRG8fE0MG",
+              "sort": 0
+            }
+          ],
+          "spell": null,
+          "sorting": "a",
+          "type": "feat",
+          "restriction": {
+            "list": [],
+            "school": [],
+            "type": "race",
+            "subtype": "lineage"
+          }
+        },
+        "value": {
+          "added": {},
+          "replaced": {}
+        },
+        "level": 0,
+        "hint": "",
+        "name": "Choose Scale Color",
+        "flags": {}
+      }
+    },
+    "crewed": false
+  },
+  "effects": [],
+  "folder": "jsojy7cSNhw6K1Du",
+  "flags": {},
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  }
+}

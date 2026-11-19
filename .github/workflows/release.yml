@@ -47,7 +47,7 @@ jobs:
           cat module.json
 
       - name: Build module.zip
-        run: zip -r module.zip module.json packs README.md LICENSE-NOTICES.md
+        run: zip -r module.zip module.json packs Icons README.md LICENSE-NOTICES.md
 
       - name: Attach files to the release
         uses: softprops/action-gh-release@v2

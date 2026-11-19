@@ -118,4 +118,3 @@ function exportJournal(pack, subdir = "") {
 
 console.log(`Exporting lore to ${outDir}`);
 exportJournal("fenari-lore");
-exportJournal("fenari-secrets", "GM Secrets");

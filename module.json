@@ -2,7 +2,7 @@
   "id": "sifs-fenari-5e-race",
   "title": "Sif's Fenari 5e Race",
   "description": "The Fenari: fluffy, nomadic demi-humans who take on the traits of the peoples they settle among. Adds the Fenari species (2024 rules) with ten Cultures and all their traits, plus a lore journal.",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "authors": [
     {
       "name": "Siffers"
@@ -10,7 +10,7 @@
   ],
   "url": "https://github.com/Siffers/Fenari-DnD5e",
   "manifest": "https://github.com/Siffers/Fenari-DnD5e/releases/latest/download/module.json",
-  "download": "https://github.com/Siffers/Fenari-DnD5e/releases/download/2.0.0/module.zip",
+  "download": "https://github.com/Siffers/Fenari-DnD5e/releases/download/2.0.1/module.zip",
   "compatibility": {
     "minimum": "13",
     "verified": "14"
@@ -50,26 +50,16 @@
         "ASSISTANT": "OWNER"
       },
       "flags": {}
-    },
-    {
-      "name": "fenari-secrets",
-      "label": "The Fenari (GM Secrets)",
-      "path": "packs/fenari-secrets",
-      "type": "JournalEntry",
-      "system": "dnd5e",
-      "ownership": {
-        "PLAYER": "NONE",
-        "TRUSTED": "NONE",
-        "ASSISTANT": "OWNER"
-      },
-      "flags": {}
     }
   ],
   "packFolders": [
     {
       "name": "The Fenari",
       "sorting": "m",
-      "packs": ["the-fenari", "fenari-lore", "fenari-secrets"]
+      "packs": [
+        "the-fenari",
+        "fenari-lore"
+      ]
     }
   ]
 }

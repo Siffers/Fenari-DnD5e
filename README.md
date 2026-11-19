@@ -29,44 +29,12 @@ and pick its options.
 
 In Foundry's setup screen open **Add-on Modules → Install Module**, paste this into **Manifest URL**, and click
 **Install**:
-
 ```
 https://github.com/Siffers/Fenari-DnD5e/releases/latest/download/module.json
 ```
-
 Then enable **Sif's Fenari 5e Race** in your world.
-
-## Editing the content
-
-The compendiums are built from the JSON files in `src/packs/`. You can edit those files directly, or edit inside
-Foundry and save your changes back:
-
-1. Edit the items or journal in Foundry's compendium (unlock it first).
-2. Return to Foundry's **setup screen**, since the packs can't be read while a world is using them.
-3. Run `tools/extract-packs.cjs` to write the changes into `src/packs/`, then commit.
-
-### Building the compendiums
-
-`tools/build-packs.cjs` turns `src/packs/` into `packs/`. With Node.js installed:
-
-```
-node tools/build-packs.cjs
-```
-
-Without Node.js on Windows, the script can borrow VS Code's runtime and Foundry's own database library:
-
-```powershell
-$env:ELECTRON_RUN_AS_NODE = 1
-& "$env:LOCALAPPDATA\Programs\Microsoft VS Code\Code.exe" tools\build-packs.cjs
-```
-
-(Use `tools\extract-packs.cjs` the same way.) Both scripts stop with a message if Foundry has the packs open.
-
-## Releasing
-
-Publish a GitHub release with a version tag (e.g. `2.0.1`). A GitHub Action builds the compendiums, stamps the
-version, and attaches `module.json` and `module.zip` to the release. Foundry picks up the update automatically.
 
 ## Credits
 
-Created by Siffers. See [LICENSE-NOTICES.md](LICENSE-NOTICES.md) for SRD 5.2 attribution.
+Race Created by Siffers.
+Plugin created with help from Claude AI.
